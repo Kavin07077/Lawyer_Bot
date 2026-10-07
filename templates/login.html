@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Admin Login - LawyerBot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/dark-theme.css">
+</head>
+<body>
+<nav class="dark-navbar">
+    <div class="brand"><i class="fas fa-balance-scale"></i> LawyerBot</div>
+    <ul class="nav-links">
+        <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="/lawyers"><i class="fas fa-users"></i> Browse Lawyers</a></li>
+        <li><a href="/login_user"><i class="fas fa-user"></i> User Login</a></li>
+        <li><a href="/login_lawyer"><i class="fas fa-gavel"></i> Lawyer Login</a></li>
+        <li><a href="/login" class="active"><i class="fas fa-user-shield"></i> Admin</a></li>
+    </ul>
+</nav>
+
+<section style="min-height:calc(100vh - 140px);display:flex;align-items:center;justify-content:center;padding:40px 20px;">
+    <div class="dark-card" style="width:100%;max-width:440px;padding:40px;">
+        <div style="text-align:center;margin-bottom:30px;">
+            <div style="width:70px;height:70px;border-radius:50%;background:linear-gradient(135deg,#a855f7,#7c3aed);display:flex;align-items:center;justify-content:center;margin:0 auto 15px;font-size:28px;color:#fff;">
+                <i class="fas fa-user-shield"></i>
+            </div>
+            <h2 style="color:#fff;font-size:24px;margin-bottom:5px;">Admin Login</h2>
+            <p style="color:#888;font-size:14px;">Manage LawyerBot System</p>
+        </div>
+
+        {% if msg %}
+        <div style="background:rgba(233,69,96,0.15);border:1px solid rgba(233,69,96,0.3);color:#e94560;padding:12px;border-radius:8px;margin-bottom:20px;text-align:center;font-size:14px;">
+            <i class="fas fa-exclamation-circle"></i> {{msg}}
+        </div>
+        {% endif %}
+
+        <form method="post" action="/login" class="dark-form">
+            <div class="form-group">
+                <label><i class="fas fa-user-shield"></i> Admin Username</label>
+                <input type="text" name="uname" placeholder="Enter admin username" required>
+            </div>
+            <div class="form-group">
+                <label><i class="fas fa-lock"></i> Admin Password</label>
+                <input type="password" name="pass" placeholder="Enter admin password" required>
+            </div>
+            <button type="submit" class="btn-accent" style="width:100%;padding:14px;border-radius:10px;border:none;font-size:16px;font-weight:600;cursor:pointer;margin-top:10px;background:linear-gradient(135deg,#a855f7,#7c3aed);">
+                <i class="fas fa-sign-in-alt"></i> Admin Sign In
+            </button>
+        </form>
+    </div>
+</section>
+
+<div class="dark-footer">&copy; 2025 LawyerBot &mdash; AI-Powered Legal Assistant</div>
+</body>
+</html>

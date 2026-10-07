@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lawyer Dashboard - LawyerBot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"><i class="fas fa-balance-scale"></i> LawyerBot</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/lawyers"><i class="fas fa-users"></i> Browse Lawyers</a></li>
+            </ul>
+            <div class="navbar-nav ms-auto">
+                <span class="navbar-text text-white me-3">
+                    <i class="fas fa-user-circle"></i> Welcome, {{ lawyer_name }}
+                </span>
+                <a class="nav-link" href="/edit_lawyer_profile"><i class="fas fa-edit"></i> Edit Profile</a>
+                <a class="nav-link" href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container my-5">
+    <h2 class="mb-4"><i class="fas fa-briefcase"></i> My Case Requests</h2>
+    
+    {% if requests|length == 0 %}
+    <div class="alert alert-info">
+        <i class="fas fa-info-circle"></i> No case requests yet. Users will find you through the lawyer directory.
+    </div>
+    {% else %}
+    <div class="row">
+        {% for req in requests %}
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0">Request #{{ req[0] }}</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong><i class="fas fa-user"></i> Client:</strong> {{ req[5] }}</p>
+                    <p><strong><i class="fas fa-phone"></i> Mobile:</strong> {{ req[6] }}</p>
+                    <p><strong><i class="fas fa-envelope"></i> Email:</strong> {{ req[7] }}</p>
+                    <p><strong><i class="fas fa-calendar"></i> Date:</strong> {{ req[4] }}</p>
+                    <hr>
+                    <p><strong><i class="fas fa-file-alt"></i> Case Description:</strong></p>
+                    <p>{{ req[2] }}</p>
+                    <p><strong>Status:</strong> 
+                        {% if req[3] == 'pending' %}
+                        <span class="badge bg-warning text-dark">{{ req[3] }}</span>
+                        {% elif req[3] == 'accepted' %}
+                        <span class="badge bg-success">{{ req[3] }}</span>
+                        {% else %}
+                        <span class="badge bg-danger">{{ req[3] }}</span>
+                        {% endif %}
+                    </p>
+                    <a href="/chat/{{ req[0] }}" class="btn btn-primary btn-sm">
+                        <i class="fas fa-comments"></i> Chat with Client
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

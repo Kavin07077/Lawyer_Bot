@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lawyer Profile - LawyerBot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; }
+        .navbar { background-color: #000 !important; }
+        .navbar a { color: #fff !important; }
+        .profile-card { 
+            background: white; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin: 20px 0;
+        }
+        .rating { color: #ffc107; font-size: 1.2em; }
+        .form-section { background: white; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        .btn-book { background-color: #28a745; }
+        .btn-book:hover { background-color: #218838; }
+        .alert { margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/"><i class="fas fa-balance-scale"></i> LawyerBot</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/lawyers"><i class="fas fa-users"></i> Back to Lawyers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/bot"><i class="fas fa-robot"></i> Chat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/requests"><i class="fas fa-file-alt"></i> My Requests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        {% if msg %}
+            <div class="alert alert-success" role="alert">{{ msg }}</div>
+        {% endif %}
+
+        {% if lawyer %}
+            <div class="profile-card">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>{{ lawyer[1] }}</h2>
+                        <p class="text-muted">{{ lawyer[2] }}</p>
+                        
+                        <p><strong>Experience:</strong> {{ lawyer[3] }} years</p>
+                        <p><strong>Rating:</strong> <span class="rating">
+                            {% for i in range(int(lawyer[9])) %}
+                                <i class="fas fa-star"></i>
+                            {% endfor %}
+                        </span> {{ lawyer[9] }}/5</p>
+
+                        <p><strong>Location:</strong> {{ lawyer[8] }}, {{ lawyer[7] }}</p>
+                        <p><strong>Address:</strong> {{ lawyer[6] }}</p>
+                        
+                        <hr>
+                        
+                        <p><strong><i class="fas fa-phone"></i> Phone:</strong> {{ lawyer[4] }}</p>
+                        <p><strong><i class="fas fa-envelope"></i> Email:</strong> {{ lawyer[5] }}</p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-section">
+                            <h4>Send Case Request</h4>
+                            <form method="POST">
+                                <div class="mb-3">
+                                    <label for="case_description" class="form-label">Describe Your Case</label>
+                                    <textarea class="form-control" id="case_description" name="case_description" rows="5" required placeholder="Provide details about your legal issue..."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-book w-100">Submit Request</button>
+                            </form>
+                        </div>
+                        
+                        <div class="form-section">
+                            <h5>About</h5>
+                            <p>{{ lawyer[10] }}</p>
+                            <a href="/requests" class="btn btn-info btn-sm">View My Requests</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% else %}
+            <div class="alert alert-danger">Lawyer not found.</div>
+        {% endif %}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

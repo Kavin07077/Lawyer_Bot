@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Edit Section - LawyerBot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/dark-theme.css">
+</head>
+<body>
+<nav class="dark-navbar">
+    <div class="brand"><i class="fas fa-balance-scale"></i> LawyerBot</div>
+    <ul class="nav-links">
+        <li><a href="/admin"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+        <li><a href="/view_data"><i class="fas fa-database"></i> View Data</a></li>
+        <li><a href="/add_query" class="active"><i class="fas fa-plus-circle"></i> Add Query</a></li>
+        <li><a href="/process"><i class="fas fa-cogs"></i> Process</a></li>
+        <li><a href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+    </ul>
+</nav>
+
+<section style="padding:40px 5%;max-width:1000px;margin:0 auto;">
+    <div style="margin-bottom:30px;">
+        <h2 style="color:#fff;font-size:28px;"><i class="fas fa-edit" style="color:#e94560;"></i> Section Details</h2>
+        <p style="color:#888;">Edit section information and manage lawyer contacts</p>
+    </div>
+
+    {% if msg %}
+    <div style="background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.3);color:#10b981;padding:12px;border-radius:8px;margin-bottom:20px;text-align:center;font-size:14px;">
+        <i class="fas fa-check-circle"></i> {{msg}}
+    </div>
+    {% endif %}
+
+    {% if data %}
+    <div class="dark-card" style="padding:30px;margin-bottom:30px;">
+        <h3 style="color:#fff;margin-bottom:20px;"><i class="fas fa-gavel" style="color:#00d2ff;"></i> IPC Section {{data[4]}}</h3>
+        <div style="background:#1a1a2e;border-radius:10px;padding:20px;margin-bottom:20px;">
+            <p style="color:#888;font-size:13px;margin-bottom:5px;">Description</p>
+            <p style="color:#ccc;">{{data[1]}}</p>
+            {% if data[2] %}
+            <p style="color:#888;font-size:13px;margin-top:15px;margin-bottom:5px;">Offense</p>
+            <p style="color:#ccc;">{{data[2]}}</p>
+            {% endif %}
+            {% if data[3] %}
+            <p style="color:#888;font-size:13px;margin-top:15px;margin-bottom:5px;">Punishment</p>
+            <p style="color:#ccc;">{{data[3]}}</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="dark-card" style="padding:30px;margin-bottom:30px;">
+        <h3 style="color:#fff;margin-bottom:20px;"><i class="fas fa-user-tie" style="color:#a855f7;"></i> Add Lawyer Contact</h3>
+        <form method="post" action="/add_query1?sid={{data[0]}}" class="dark-form">
+            <input type="hidden" name="user_query" value="{{data[4]}}">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:15px;">
+                <div class="form-group">
+                    <label>District</label>
+                    <input type="text" name="district" placeholder="District" required>
+                </div>
+                <div class="form-group">
+                    <label>Lawyer Name</label>
+                    <input type="text" name="name" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label>Mobile</label>
+                    <input type="text" name="mobile" placeholder="Phone number" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Address</label>
+                <input type="text" name="address" placeholder="Office address" required>
+            </div>
+            <button type="submit" class="btn-accent" style="padding:12px 28px;border-radius:10px;border:none;font-size:15px;font-weight:600;cursor:pointer;background:linear-gradient(135deg,#a855f7,#7c3aed);">
+                <i class="fas fa-plus"></i> Add Contact
+            </button>
+        </form>
+    </div>
+    {% endif %}
+
+    {% if data2 %}
+    <div class="dark-card" style="padding:20px;overflow-x:auto;">
+        <h3 style="color:#fff;margin-bottom:15px;"><i class="fas fa-address-book" style="color:#10b981;"></i> Lawyer Contacts</h3>
+        <table class="dark-table">
+            <thead>
+                <tr><th>District</th><th>Name</th><th>Mobile</th><th>Email</th><th>Address</th><th>Action</th></tr>
+            </thead>
+            <tbody>
+                {% for r in data2 %}
+                <tr>
+                    <td>{{r[2]}}</td><td>{{r[3]}}</td><td>{{r[4]}}</td><td>{{r[5]}}</td><td>{{r[6]}}</td>
+                    <td><a href="/add_query1?act=del&did={{r[0]}}&sid={{sid}}" style="color:#e94560;"><i class="fas fa-trash"></i></a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endif %}
+</section>
+
+<div class="dark-footer">&copy; 2025 LawyerBot &mdash; Admin Panel</div>
+</body>
+</html>

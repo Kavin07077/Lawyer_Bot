@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>LawyerBot - AI Legal Assistant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/dark-theme.css">
+</head>
+<body>
+<nav class="dark-navbar">
+    <div class="brand"><i class="fas fa-balance-scale"></i> LawyerBot</div>
+    <ul class="nav-links">
+        <li><a href="/" class="active"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="/login"><i class="fas fa-user-shield"></i> Admin</a></li>
+        <li><a href="/admin_lawyers?status=pending"><i class="fas fa-clipboard-list"></i> Lawyer Requests</a></li>
+        <li><a href="/lawyers"><i class="fas fa-users"></i> Browse Lawyers</a></li>
+        <li><a href="/login_user"><i class="fas fa-user"></i> User Login</a></li>
+        <li><a href="/login_lawyer"><i class="fas fa-gavel"></i> Lawyer Login</a></li>
+    </ul>
+</nav>
+
+<section class="hero-section">
+    <div class="hero-content">
+        <span class="hero-badge"><i class="fas fa-robot"></i> AI-Powered Legal Assistant</span>
+        <h1>Get Instant Legal<br><span class="gradient-text">Guidance with AI</span></h1>
+        <p>Ask questions about IPC sections, offenses, and punishments. Our AI chatbot provides accurate legal information powered by advanced language models.</p>
+        <div style="display:flex;gap:15px;margin-top:30px;flex-wrap:wrap;">
+            <a href="/login_user" class="btn-accent" style="padding:14px 32px;border-radius:12px;text-decoration:none;font-weight:600;font-size:16px;">
+                <i class="fas fa-comments"></i> Start Chatting
+            </a>
+            <a href="/register" style="padding:14px 32px;border-radius:12px;text-decoration:none;font-weight:600;font-size:16px;border:2px solid rgba(233,69,96,0.5);color:#e94560;">
+                <i class="fas fa-user-plus"></i> Create Account
+            </a>
+            <a href="/lawyers" style="padding:14px 32px;border-radius:12px;text-decoration:none;font-weight:600;font-size:16px;border:2px solid rgba(16,185,129,0.5);color:#10b981;">
+                <i class="fas fa-search"></i> Find Lawyers
+            </a>
+        </div>
+    </div>
+</section>
+
+<section style="padding:80px 5%;max-width:1200px;margin:0 auto;">
+    <div style="text-align:center;margin-bottom:50px;">
+        <h2 style="color:#fff;font-size:32px;font-weight:700;">All Features & Pages</h2>
+        <p style="color:#888;font-size:16px;">Complete platform navigation</p>
+    </div>
+    
+    <!-- User Features -->
+    <div style="margin-bottom:50px;">
+        <h3 style="color:#e94560;font-size:24px;margin-bottom:20px;display:flex;align-items:center;gap:10px;">
+            <i class="fas fa-user"></i> For Users
+        </h3>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
+            <a href="/register" class="dark-card" style="padding:25px;text-decoration:none;transition:transform 0.2s;display:block;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,#e94560,#c23152);display:flex;align-items:center;justify-content:center;margin-bottom:15px;font-size:22px;color:#fff;">
+                    <i class="fas fa-user-plus"></i>
+                </div>
+                <h4 style="color:#fff;margin-bottom:8px;">Register</h4>
+                <p style="color:#999;font-size:14px;">Create a new user account</p>
+            </a>
+            
+            <a href="/login_user" class="dark-card" style="padding:25px;text-decoration:none;transition:transform 0.2s;display:block;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,#00d2ff,#0094c6);display:flex;align-items:center;justify-content:center;margin-bottom:15px;font-size:22px;color:#fff;">
+                    <i class="fas fa-sign-in-alt"></i>
+                </div>
+                <h4 style="color:#fff;margin-bottom:8px;">User Login</h4>
+                <p style="color:#999;font-size:14px;">Access your account</p>
+            </a>
+            
+            <a href="/bot" class="dark-card" style="padding:25px;text-decoration:none;transition:transform 0.2s;display:block;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,#a855f7,#7c3aed);display:flex;align-items:center;justify-content:center;margin-bottom:15px;font-size:22px;color:#fff;">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h4 style="color:#fff;margin-bottom:8px;">AI Chatbot</h4>
+                <p style="color:#999;font-size:14px;">Chat with legal AI assistant</p>
+            </a>
+            
+            <a href="/requests" class="dark-card" style="padding:25px;text-decoration:none;transition:transform 0.2s;display:block;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,#f59e0b,#d97706);display:flex;align-items:center;justify-content:center;margin-bottom:15px;font-size:22px;color:#fff;">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <h4 style="color:#fff;margin-bottom:8px;">My Requests</h4>
+                <p style="color:#999;font-size:14px;">View your lawyer requests</p>
+            </a>
+        </div>
+    </div>
+    
+    <!-- Lawyer Features -->
+    <div style="margin-bottom:50px;">
+        <h3 style="color:#10b981;font-size:24px;margin-bottom:20px;display:flex;align-items:center;gap:10px;">
+            <i class="fas fa-gavel"></i> For Lawyers
+        </h3>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
+            <a href="/register_lawyer" class="dark-card" style="padding:25px;text-decoration:none;transition:transform 0.2s;display:block;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,#10b981,#059669);display:flex;align-items:center;justify-content:center;margin-bottom:15px;font-size:22px;color:#fff;">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <h4 style="color:#fff;margin-bottom:8px;">Lawyer Registration</h4>
+                <p style="color:#999;font-size:14px;">Register as a lawyer</p>
+            </a>
+            
+            <a href="/login_lawyer" class="dark-card" style="padding:25px;text-decoration:none;transition:transform 0.2s;display:block;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,#10b981,#059669);display:flex;align-items:center;justify-content:center;margin-bottom:15px;font-size:22px;color:#fff;">
+                    <i class="fas fa-sign-in-alt"></i>
+                </div>
+                <h4 style="color:#fff;margin-bottom:8px;">Lawyer Login</h4>
+                <p style="color:#999;font-size:14px;">Access lawyer dashboard</p>
+            </a>
+            
+            <a href="/lawyers" class="dark-card" style="padding:25px;text-decoration:none;transition:transform 0.2s;display:block;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,#06b6d4,#0891b2);display:flex;align-items:center;justify-content:center;margin-bottom:15px;font-size:22px;color:#fff;">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h4 style="color:#fff;margin-bottom:8px;">Browse Lawyers</h4>
+                <p style="color:#999;font-size:14px;">Find and contact lawyers</p>
+            </a>
+        </div>
+    </div>
+    
+    <!-- Admin Features -->
+    <div style="margin-bottom:50px;">
+        <h3 style="color:#8b5cf6;font-size:24px;margin-bottom:20px;display:flex;align-items:center;gap:10px;">
+            <i class="fas fa-user-shield"></i> For Administrators
+        </h3>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
+            <a href="/login" class="dark-card" style="padding:25px;text-decoration:none;transition:transform 0.2s;display:block;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,#8b5cf6,#7c3aed);display:flex;align-items:center;justify-content:center;margin-bottom:15px;font-size:22px;color:#fff;">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h4 style="color:#fff;margin-bottom:8px;">Admin Login</h4>
+                <p style="color:#999;font-size:14px;">Administrator access</p>
+            </a>
+            
+            <a href="/admin" class="dark-card" style="padding:25px;text-decoration:none;transition:transform 0.2s;display:block;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,#8b5cf6,#7c3aed);display:flex;align-items:center;justify-content:center;margin-bottom:15px;font-size:22px;color:#fff;">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h4 style="color:#fff;margin-bottom:8px;">Upload Data</h4>
+                <p style="color:#999;font-size:14px;">Manage IPC section data</p>
+            </a>
+            
+            <a href="/admin_lawyers" class="dark-card" style="padding:25px;text-decoration:none;transition:transform 0.2s;display:block;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,#8b5cf6,#7c3aed);display:flex;align-items:center;justify-content:center;margin-bottom:15px;font-size:22px;color:#fff;">
+                    <i class="fas fa-users-cog"></i>
+                </div>
+                <h4 style="color:#fff;margin-bottom:8px;">Manage Lawyers</h4>
+                <p style="color:#999;font-size:14px;">Add/remove lawyers</p>
+            </a>
+            
+            <a href="/view_data" class="dark-card" style="padding:25px;text-decoration:none;transition:transform 0.2s;display:block;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,#8b5cf6,#7c3aed);display:flex;align-items:center;justify-content:center;margin-bottom:15px;font-size:22px;color:#fff;">
+                    <i class="fas fa-table"></i>
+                </div>
+                <h4 style="color:#fff;margin-bottom:8px;">View Data</h4>
+                <p style="color:#999;font-size:14px;">Browse database records</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section style="padding:80px 5%;max-width:1200px;margin:0 auto;">
+    <div style="text-align:center;margin-bottom:50px;">
+        <h2 style="color:#fff;font-size:32px;font-weight:700;">How It Works</h2>
+        <p style="color:#888;font-size:16px;">Three simple steps to get legal assistance</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;">
+        <div class="dark-card" style="text-align:center;padding:40px 30px;">
+            <div style="width:70px;height:70px;border-radius:50%;background:linear-gradient(135deg,#e94560,#c23152);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:28px;color:#fff;">
+                <i class="fas fa-user-plus"></i>
+            </div>
+            <h3 style="color:#fff;margin-bottom:10px;">1. Register</h3>
+            <p style="color:#999;">Create your free account to access the AI legal assistant.</p>
+        </div>
+        <div class="dark-card" style="text-align:center;padding:40px 30px;">
+            <div style="width:70px;height:70px;border-radius:50%;background:linear-gradient(135deg,#00d2ff,#0094c6);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:28px;color:#fff;">
+                <i class="fas fa-comments"></i>
+            </div>
+            <h3 style="color:#fff;margin-bottom:10px;">2. Ask Questions</h3>
+            <p style="color:#999;">Type or speak your legal queries in any supported language.</p>
+        </div>
+        <div class="dark-card" style="text-align:center;padding:40px 30px;">
+            <div style="width:70px;height:70px;border-radius:50%;background:linear-gradient(135deg,#a855f7,#7c3aed);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:28px;color:#fff;">
+                <i class="fas fa-brain"></i>
+            </div>
+            <h3 style="color:#fff;margin-bottom:10px;">3. Get AI Answers</h3>
+            <p style="color:#999;">Receive detailed explanations about IPC sections and punishments.</p>
+        </div>
+    </div>
+</section>
+
+<section style="padding:60px 5%;max-width:1200px;margin:0 auto;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;text-align:center;">
+        <div class="dark-card" style="padding:30px;">
+            <h2 style="color:#e94560;font-size:36px;font-weight:800;">500+</h2>
+            <p style="color:#999;">IPC Sections</p>
+        </div>
+        <div class="dark-card" style="padding:30px;">
+            <h2 style="color:#00d2ff;font-size:36px;font-weight:800;">10+</h2>
+            <p style="color:#999;">Languages</p>
+        </div>
+        <div class="dark-card" style="padding:30px;">
+            <h2 style="color:#a855f7;font-size:36px;font-weight:800;">AI</h2>
+            <p style="color:#999;">Groq Powered</p>
+        </div>
+        <div class="dark-card" style="padding:30px;">
+            <h2 style="color:#10b981;font-size:36px;font-weight:800;">24/7</h2>
+            <p style="color:#999;">Always Available</p>
+        </div>
+    </div>
+</section>
+
+<div class="dark-footer">
+    <p>&copy; 2025 LawyerBot &mdash; AI-Powered Legal Assistant</p>
+    <p style="color:#666;margin-top:5px;font-size:13px;">Disclaimer: This is an educational tool. Consult a licensed lawyer for legal advice.</p>
+</div>
+</body>
+</html>

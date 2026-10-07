@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Chat with Lawyer - LawyerBot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; }
+        .navbar { background-color: #000 !important; }
+        .navbar a { color: #fff !important; }
+        .chat-container { 
+            background: white; 
+            border-radius: 8px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            height: 500px;
+            overflow-y: auto;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .message { 
+            margin: 10px 0; 
+            padding: 10px 15px; 
+            border-radius: 8px;
+            max-width: 75%;
+            word-wrap: break-word;
+        }
+        .message.user {
+            background-color: #007bff;
+            color: white;
+            margin-left: auto;
+            text-align: right;
+        }
+        .message.lawyer {
+            background-color: #e9ecef;
+            color: black;
+            margin-right: auto;
+        }
+        .lawyer-info { 
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/"><i class="fas fa-balance-scale"></i> LawyerBot</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/lawyers"><i class="fas fa-users"></i> Browse Lawyers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/requests"><i class="fas fa-file-alt"></i> My Requests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+            background: white; 
+            padding: 20px; 
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+            margin: 20px 0;
+        }
+        .input-section { 
+            background: white; 
+            padding: 20px; 
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .timestamp { 
+            font-size: 0.8em; 
+            opacity: 0.7; 
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">LawyerBot</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="/requests">Back to Requests</a>
+                <a class="nav-link" href="/logout">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        {% if request_details %}
+            <div class="lawyer-info">
+                <h4><i class="fas fa-user-tie"></i> Chat with {{ request_details[7] }}</h4>
+                <p><strong>Case Status:</strong> 
+                    <span class="badge bg-info">{{ request_details[4] }}</span>
+                </p>
+                <p><strong>Case Description:</strong> {{ request_details[3] }}</p>
+                <p>
+                    <i class="fas fa-phone"></i> {{ request_details[8] }} | 
+                    <i class="fas fa-envelope"></i> {{ request_details[9] }}
+                </p>
+            </div>
+
+            <div class="chat-container">
+                {% if messages %}
+                    {% for msg in messages %}
+                        <div class="message {% if msg[1] == 'user' %}user{% else %}lawyer{% endif %}">
+                            <strong>{{ msg[1]|upper }}</strong>
+                            <p>{{ msg[2] }}</p>
+                            <div class="timestamp">{{ msg[3] }}</div>
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="alert alert-info">No messages yet. Start the conversation!</div>
+                {% endif %}
+            </div>
+
+            <div class="input-section">
+                <form method="POST">
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="3" required placeholder="Type your message..."></textarea>
+                    </div>
+                    <input type="hidden" name="sender_type" value="user">
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+            </div>
+        {% else %}
+            <div class="alert alert-danger">Request not found.</div>
+        {% endif %}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Auto-scroll to bottom of chat
+        document.addEventListener('DOMContentLoaded', function() {
+            const chatContainer = document.querySelector('.chat-container');
+            if (chatContainer) {
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+            }
+        });
+    </script>
+</body>
+</html>

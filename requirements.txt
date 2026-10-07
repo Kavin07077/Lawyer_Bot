@@ -1,0 +1,12 @@
+Flask
+mysql-connector-python
+SpeechRecognition
+deep-translator
+gTTS
+nltk
+groq
+pandas
+numpy
+matplotlib
+opencv-python
+pillow

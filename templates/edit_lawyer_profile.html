@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Edit Lawyer Profile - LawyerBot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/dark-theme.css">
+</head>
+<body>
+<nav class="dark-navbar">
+    <div class="brand"><i class="fas fa-balance-scale"></i> LawyerBot</div>
+    <ul class="nav-links">
+        <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="/lawyers"><i class="fas fa-users"></i> Browse Lawyers</a></li>
+        <li><a href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+    </ul>
+</nav>
+
+<section style="padding:40px 5%;max-width:800px;margin:0 auto;">
+    <div style="margin-bottom:30px;">
+        <h2 style="color:#fff;font-size:28px;"><i class="fas fa-user-edit" style="color:#10b981;"></i> Edit Your Profile</h2>
+        <p style="color:#888;">Update your professional information</p>
+    </div>
+
+    {% if msg %}
+    <div style="background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.3);color:#10b981;padding:12px;border-radius:8px;margin-bottom:20px;text-align:center;font-size:14px;">
+        <i class="fas fa-check-circle"></i> {{msg}}
+    </div>
+    {% endif %}
+
+    <div class="dark-card" style="padding:40px;">
+        <form method="post" class="dark-form">
+            <h4 style="color:#fff;margin-bottom:15px;font-size:16px;"><i class="fas fa-info-circle"></i> Personal Information</h4>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:15px;">
+                <div class="form-group">
+                    <label><i class="fas fa-user"></i> Full Name</label>
+                    <input type="text" name="name" value="{{ lawyer[1] or '' }}" placeholder="Full name" required>
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-phone"></i> Phone</label>
+                    <input type="text" name="phone" value="{{ lawyer[4] or '' }}" placeholder="Phone number" required maxlength="10" pattern="[0-9]{10}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label><i class="fas fa-envelope"></i> Email</label>
+                <input type="email" name="email" value="{{ lawyer[5] or '' }}" placeholder="Email address" required>
+            </div>
+
+            <h4 style="color:#fff;margin:25px 0 15px;font-size:16px;"><i class="fas fa-briefcase"></i> Professional Details</h4>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:15px;">
+                <div class="form-group">
+                    <label><i class="fas fa-graduation-cap"></i> Specialization</label>
+                    <input type="text" name="specialization" value="{{ lawyer[2] or '' }}" placeholder="e.g., Criminal Law" required>
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-calendar-alt"></i> Experience (Years)</label>
+                    <input type="number" name="experience" value="{{ lawyer[3] or 0 }}" placeholder="Years" required min="0">
+                </div>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:15px;">
+                <div class="form-group">
+                    <label><i class="fas fa-city"></i> City</label>
+                    <input type="text" name="city" value="{{ lawyer[8] or '' }}" placeholder="City" required>
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-map-marker-alt"></i> District</label>
+                    <input type="text" name="district" value="{{ lawyer[7] or '' }}" placeholder="District" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label><i class="fas fa-home"></i> Address</label>
+                <textarea name="address" placeholder="Complete address" rows="2" required>{{ lawyer[6] or '' }}</textarea>
+            </div>
+            <div class="form-group">
+                <label><i class="fas fa-file-alt"></i> Bio</label>
+                <textarea name="bio" placeholder="Brief description about your practice" rows="3">{{ lawyer[10] or '' }}</textarea>
+            </div>
+
+            <div style="display:flex;gap:15px;margin-top:25px;">
+                <button type="submit" style="flex:1;padding:14px;background:linear-gradient(135deg,#10b981,#059669);border:none;border-radius:8px;color:#fff;font-size:15px;font-weight:600;cursor:pointer;">
+                    <i class="fas fa-save"></i> Save Changes
+                </button>
+                <a href="/" style="flex:1;padding:14px;background:#333;border:none;border-radius:8px;color:#fff;font-size:15px;font-weight:600;cursor:pointer;text-decoration:none;text-align:center;display:flex;align-items:center;justify-content:center;gap:8px;">
+                    <i class="fas fa-times"></i> Cancel
+                </a>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer style="background:#0f172a;color:#888;text-align:center;padding:20px;font-size:13px;border-top:1px solid #1e293b;margin-top:50px;">
+    <p>&copy; 2024 LawyerBot. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

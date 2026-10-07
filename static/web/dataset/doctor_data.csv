@@ -1,0 +1,678 @@
+ID,Name,Specialization,Address,City,Phone number,Time,Rating
+1,Dr.Girish K Nadiger,ophthalmologists,Vijaya road,Chennai,8362741476,09:00am-08:00pm,5
+2,Dr.Neeta K Sambrani,ophthalmologists,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,8362748020,"12:30am-2:30pm,5:30pm-8:30pm",4.5
+3,Dr. A B Jadhav,ophthalmologists,"P B Road,  Opposite Hotel Hoysala",Chennai,8362444100,09:00 am - 08:00 pm,4
+4,Dr. Sanjeev Kulkarni ,ophthalmologists,"Chethan Clinic, Tikare Road",Chennai,8362241515,09:30 am - 06:30 pm,4.7
+5,Dr. B R Jayasudha ,ophthalmologists,"4/5, Tennur",Trichy,8362444100,09:00 am - 08:00 pm,0.5
+6,M M Joshi Eye Institute,ophthalmologists,"23/7, KK Nagar",Pudukkottai,8362792222,09:00 am - 08:30 pm,4.2
+7,Dr. Tavargeri S k ,ophthalmologists,"7, TPK Complex, Chatram",Trichy,8362778387,09:00am-08:00pm,3.6
+8,vasan Eye Care hospital,ophthalmologists,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,8364269666,9:00am-7:00pm,4.2
+9,Dr.R Krishna prasad,ophthalmologists,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8362228431,24hours,5
+10,Manvi Multispeciality Hospital,ophthalmologists,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,8362228390,24hours,4.3
+11,Jaya Priya Hospital ,ophthalmologists,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,8362351766,24hours,4.2
+12,Dr. Rushikesh Arunrao Naigaonkar (Vasan Eye Care Hospital) ,ophthalmologists,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,8363989050,24hours,5
+13,Vision Eye Hospital ,ophthalmologists,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,8362305628,"9:00am-1:00pm,3:00pm-5:00pm",4.7
+14,M M Joshi Eye Hospital,ophthalmologists,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,8362228431,24hours,4.3
+15,Hubli Optics Dajibanpet,ophthalmologists,Kalburgi Cmplx,Erode,8362278022,09:00am-7:00pm,5
+16,Dr. Ashok S Mudaraddi ,ophthalmologists,Ashwamedha Trade Centre,Coimbatore,8362366127,12:00pm-7:00pm,5
+17,Dr. Mahipathi Madhwacharya Joshi (M M Joshi Eye Hospital),ophthalmologists,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,8362228431,24hours,4
+18,Dr. K V Satyamurthy (M M Joshi Eye Hospital),ophthalmologists,Ghandhi Nagar,Thirunelveli,8362228431,24hours,3
+19,Dr. Rajashekhar V Patil (Vasan Eye Care Hospital),ophthalmologists,MK Nagar,Thirunelveli,8364269666,9:00am-7:00pm,3
+20,Dr. Jyotsna Nandipati (M M Joshi Eye Hospital),ophthalmologists,C/O M M Joshi Eye Hospital,Salem,8362228431,24hours,2
+21,Mirajkar Dr B I ,ophthalmologists,"8/12, Indira Nagar",Namakkal,8362252450,9:30am-6:30pm,2
+22,Dr. V R Udapudi (M M Joshi Eye Hospital),ophthalmologists,FST Road,Kumbakonam,8362228431,24hours,1
+23,Dr. V.ravi L Nadger (vasan Eye Care Hospital) ,ophthalmologists,Thillai Nagr,Trichy,8364269666,9:00am-7:00pm,3
+24,Dr. Preethi B Sankal (Vasan Eye Care Hospital),ophthalmologists,"GK Towers, SS Road",Kumbakonam,8364269666,9:00am-7:00pm,5
+25,Dr. Rajshekhar Dyaberi (Vasan Eye Care Hospital),ophthalmologists,RR Complex,Chennai,8364269666,9:00am-7:00pm,4
+26,Dr. Vivekanand Jivangi (Vasan Eye Care Hospital),ophthalmologists,ST Road,Salem,8364269666,9:00am-7:00pm,4
+27,Srusuruta Eye Clinic & Lazer Centre,ophthalmologists,"5/113, Ghandhi Market",Trichy,8192250675,8:30am-8:30pm,3.3
+28,Spandan Hospital And Janani Fertility Centre ,Gynaecologists,Vijaya road,Chennai,9152948675,10:00 am - 1:00 pm ,4.8
+29,Hebsur Hospital ,Gynaecologists,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,9152647633,24hours,4.2
+30,Dr. Shrikant Meharwade,Gynaecologists,"P B Road,  Opposite Hotel Hoysala",Chennai,9152672501,10:30 am - 8:00 pm,3.8
+31,Dr. Meena R Kalghatagi ,Gynaecologists,"Chethan Clinic, Tikare Road",Chennai,9845740636,9:30 am - 6:30 pm,4.1
+32,Dr Kavitha Aithal ,Gynaecologists,"4/5, Tennur",Trichy,8362331669,"10:30 am - 2:30 pm, 6:00 pm - 8:30 pm",4.2
+33,Aakanksh Ivf Centre,Gynaecologists,"23/7, KK Nagar",Pudukkottai,9152492324,10:00 am - 6:00 pm,4.7
+34,City Clinic,Gynaecologists,"7, TPK Complex, Chatram",Trichy,8362228396,24hours,4.3
+35,Dr. Gokavis Maternity & General Hospital,Gynaecologists,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,8362362019,24hours,4.3
+36,Dr. Ratnamala M Desai,Gynaecologists,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8362228390,9:30 am - 6:30 pm,4.9
+37,Shivaleela Hospital,Gynaecologists,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,8362373898,24hours,3.6
+38,Dr. Katit Ranjana,Gynaecologists,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,8362228372,24hours,5
+39,Dr. Laxmi Women's Hospital,Gynaecologists,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,9845240432,6:00 pm - 9:00 pm,3.1
+40,Dr. Sumangala Prakash ,Gynaecologists,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,9035968868,09:00am-09:00pm,5
+41,Dr. Sunitha Tanksali ,Gynaecologists,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,8362355809,10:30am-8:00pm,4.3
+42,Dr. Kasturi .v.donimath,Gynaecologists,Kalburgi Cmplx,Erode,9448375802,09:00am-09:00pm,3.2
+43,Makarand Clinic,Gynaecologists,Ashwamedha Trade Centre,Coimbatore,8362331669,"10:00 am - 2:00 pm, 5:00 pm - 8:00 pm",5
+44,Kallian Purkar Nursing Home ,Gynaecologists,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,8362251889,24hours,3.4
+45,Mangala Nursing & Maternity Home ,Gynaecologists,Ghandhi Nagar,Thirunelveli,9448355838,10:00am-8:00pm,5
+46,Dr. Smita S Konnur,Gynaecologists,Nehru Nagar,Thirunelveli,8362305297,09:00am-09:00pm,5
+47,Dr. Neela Dixit,Gynaecologists,C/O M M Joshi Eye Hospital,Salem,9448765599,24hours,4.8
+48,Shripriya Clinic,Gynaecologists,"8/12, Indira Nagar",Namakkal,8362283636,"10:30 am - 1:30 pm, 4:00 pm - 9:00 pm",4.8
+49,Dr. Shankar Bijapur ,Gynaecologists,FST Road,Kumbakonam,8362352244,09:00 am - 09:00 pm,4
+50,Dr. Govind P Miraj ,Gynaecologists,Thillai Nagr,Trichy,8362256714,11:00am-09:00pm,4
+51,Dr. Hemalata S Meharwade,Gynaecologists,"GK Towers, SS Road",Kumbakonam,8362363066,11:00 am - 12:00 am,3.5
+52,Bannikop Clinic ,Gynaecologists,Ramachandra Complex,Chennai,8362374456,09:00 am - 09:00 pm,3.5
+53,Moon Maternity,Gynaecologists,ST Road,Salem,8362335561,24hours,0.5
+54,Dr. Basavaraj Sajjan,Gynaecologists,"5/113, Ghandhi Market",Trichy,9448137149,9:30 am - 6:00 pm,5
+55,Dr. Jayalaxmi V Kamath,Gynaecologists,Vijaya road,Chennai,9845396303,10:00am-08:00pm,5
+56,Dr. Bharathi S Koralahalli ,Gynaecologists,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,8362352675,09:00am-09:00pm,5
+57,Dr. Nagarekha N Hebsur,Gynaecologists,"15, Adayar",Chennai,8362355699,"11:30 am - 02:30 pm, 07:00 pm - 08:30 pm",5
+58,Dr. T H Sunitha,Gynaecologists,"4th cross, Ramji Nagr",Chennai,9448961359,10:00am-09:30pm,5
+59,Dr. Mamata C Patil,Gynaecologists,"42, North, Kattur",Trichy,9448022940,11:00 am - 9:00 pm,5
+60,Dr. N M Mahabalashetty,Gynaecologists,"5th cross, Anna Nagar",Pudukkottai,9448352616,10:30am-8:00pm,5
+61,Dr. Shailesh E Gokavi,Gynaecologists,"5, Palpannai",Trichy,8362362019,"10:00 am - 02:00 pm ,05:00 pm - 08:00 pm",5
+62,Airsang Dr Usha ,Gynaecologists,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,8362303343,10:00am-09:30pm,5
+63,Annapurna Nursing Home,Gynaecologists,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8362364015,10:00 am - 09:30 pm,4
+64,Dr. Ramesh Kumar,Gynaecologists,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,9886071742,09:00am-09:00pm,4
+65,Dr. Rohini Prabhu ,Gynaecologists,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,8362372804,09:00am-09:00pm,4
+66,Dr. Jamuna Kanakaraya,Gynaecologists,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,9448245458,24hours,4
+67,Dr. Prabhu M n,Gynaecologists,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,8362374748,09:30 am - 06:30 pm,3
+68,Dr. Anjali S Naregal,Gynaecologists,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,8362211889,9:30 am - 6:30 pm,2
+69,Dr. Saroja S Bhairi,Gynaecologists,Kalburgi Cmplx,Erode,9448392204,"12:00 pm - 3:00 pm ,5:00 am - 6:00 am",2
+70,Dr. M G Hiremath ,Gynaecologists,Ashwamedha Trade Centre,Coimbatore,8362373407,24hours,3
+71,Dr. Sharada Bandiwadder,Gynaecologists,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,9448363927,10:00am-06:00pm,4
+72,Dr. Madhuri Rameshkumar,Gynaecologists,Ghandhi Nagar,Thirunelveli,9742258408,"11:00 am - 03:30 pm, 06:00 pm - 08:30 pm",5
+73,Dr. Sushila K Dutta,Gynaecologists,MK Nagar,Thirunelveli,9845077670,24hours,4
+74,Dr. Manjula K Redder,Gynaecologists,C/O M M Joshi Eye Hospital,Salem,9449513555,10:30 am - 01:00 pm,3
+75,Dr. Venkatesh K. V. ,Gynaecologists,"8/12, Indira Nagar",Namakkal,9448317163,24hours,3
+76,Dr. Seeta Garag,Gynaecologists,"15, Adayar",Chennai,8362370766,6:00 pm - 8:00 pm,2
+77,Dr. Reshma J Rathod ,Gynaecologists,"4th cross, Ramji Nagr",Chennai,9538467695,10:00 am - 6:00 pm,3
+78,Dr. Lata Rayaji ,Gynaecologists,"42, North, Kattur",Trichy,8362311892,9:30 am - 6:30 pm,4
+79,Dr. U S Hangarga,Gynaecologists,"5th cross, Anna Nagar",Pudukkottai,9448184363,09:00 am - 07:00 pm,5
+80,Dr. A B Sali,Gynaecologists,"5, Palpannai",Trichy,9448475851,09:00 am - 07:00 pm,4
+81,Dr. Anuradha Moola ,Gynaecologists,"5/113, Ghandhi Market",Trichy,9880105545,9:30 am - 6:30 pm,5
+82,Dr. Shettar C b,Gynaecologists,Vijaya road,Chennai,8362351341,09:00 am - 07:00 pm,5
+83,Dr. B H Barakol,Gynaecologists,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,8362461641,10:00am-06:00pm,4
+84,Dr. Roopa Aravind K ,Gynaecologists,"P B Road,  Opposite Hotel Hoysala",Chennai,9243288985,09:00am-09:00pm,3
+85,Dr. Vijaya Malagi,Gynaecologists,"Chethan Clinic, Tikare Road",Chennai,8362333851,09:00am-09:00pm,2
+86,Dr. Vijayalaxmi Phatke,Gynaecologists,"4/5, Tennur",Trichy,8362330392,09:00 am - 07:00 pm,2
+87,Chavan Dr Smt S R,Gynaecologists,"23/7, KK Nagar",Pudukkottai,8362372408,09:00am-09:00pm,3
+88,Dr. Yogendra M Kabade,Gynaecologists,"7, TPK Complex, Chatram",Trichy,9448210579,10:00am-06:00pm,4
+89,Dr. H M Subhashini ,Gynaecologists,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,9343499494,09:00am-09:00pm,4
+90,Dr. Sahaja Kittur ,Gynaecologists,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,9980279944,10:00am-06:00pm,3
+91,Dr. Ramlingappa C Antartani,Gynaecologists,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,8362370101,24hours,3
+92,Dr. Leeladevi S Navalgund,Gynaecologists,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,9886337732,"12:00 pm - 2:00 pm, 7:00 pm - 9:00 pm",2
+93,Dr. Sanjeev Kulkarni (Tavargeri Hospital),Gynaecologists,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,8362743100,09:30 am - 06:30 pm,4.7
+94,Dr. Sarvamangala Devaraju,Gynaecologists,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,8362774573,09:00 am - 07:00 pm,4.8
+95,Dr. Nachiketa S V,Gynaecologists,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,9343882242,"11:00 am - 01:00 pm, 05:00 pm - 09:30 pm",4.8
+96,Dr. Soubhagya Kulkarni ,Gynaecologists,Kalburgi Cmplx,Erode,8362440531,9:30 am - 6:30 pm,5
+97,Dr. Shakuntala A Shetty,Gynaecologists,Ashwamedha Trade Centre,Coimbatore,9845095568,11:30 am - 7:00 pm,4.3
+98,Dr. Shreedhar H Pujar,Gynaecologists,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,8362779306,9:30 am - 6:30 pm,5
+99,Dr. Geeta Uttur ,Gynaecologists,Ghandhi Nagar,Thirunelveli,9448301075,24hours,2.3
+100,Dr. Jothi R Pudakalkatti ,Gynaecologists,MK Nagar,Thirunelveli,8362744246,09:00 am - 07:00 pm,5
+101,Dr. Bheemannavar,Gynaecologists,C/O M M Joshi Eye Hospital,Salem,8362788276,09:00 am - 07:00 pm,4
+102,Dr. Shivananda M.angadi,Gynaecologists,"8/12, Indira Nagar",Namakkal,9343401335,10:00am-06:00pm,3.5
+103,Priya's Family Clinic,Gynaecologists,"15, Adayar",Chennai,9480127700,09:30 am - 06:30 pm,3
+104,Dr. K S Sunilkumar ,Gynaecologists,"4th cross, Ramji Nagr",Chennai,9449980334,10:00am-06:00pm,2.5
+105,Dr. Jothi Hiremath (Nikhila Clinic),Gynaecologists,"42, North, Kattur",Trichy,8553851427,12:00 pm - 06:00 pm,5
+106,Dr. Bharati Pujari,Gynaecologists,"5th cross, Anna Nagar",Pudukkottai,8362211226,09:00 am - 07:00 pm,4
+107,Dr. S R Hiremath,Gynaecologists,"5, Palpannai",Trichy,9482779797,10:00am-06:00pm,4
+108,Nikhil Nursing Home ,Gynaecologists,"P B Road,  Opposite Hotel Hoysala",Chennai,9742878680,24hours,4
+109,Dr. B R Barakoi ,Gynaecologists,"Chethan Clinic, Tikare Road",Chennai,8362448359,9:30 am - 6:30 pm,3
+110,Dr. Sunita Pavate ,Gynaecologists,"4/5, Tennur",Trichy,9844012965,09:00 am - 07:00 pm,4
+111,Dr. Padmapriya Maternity Clinic ,Gynaecologists,"23/7, KK Nagar",Pudukkottai,8362744333,24hours,3
+112,Dr. Satish Shetty,Gynaecologists,"7, TPK Complex, Chatram",Trichy,9632217677,1:00 pm - 10:00 pm,4
+113,Dr. Uma T Sultanpur,Gynaecologists,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,9448527252,24hours,3
+114,Dr. Jayashree Deshpande,Gynaecologists,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8362747820,10:00am-06:00pm,4
+115,Dr. Surekha Hanchinal,Gynaecologists,"15, Adayar",Chennai,9842130711,09:00am-09:00pm,4
+116,Dr. Indira S Patil,Gynaecologists,"4th cross, Ramji Nagr",Chennai,9449087087,09:00am-09:00pm,3
+117,Dr. Nishita ,Gynaecologists,"42, North, Kattur",Trichy,9008006963,"9:00 am - 12:00 pm, 6:00 pm - 9:00 pm",5
+118,Dr. Jyoti M R,Gynaecologists,"5th cross, Anna Nagar",Pudukkottai,9342581224,09:00am-07:00pm,5
+119,Dr. Leena Kamat,Gynaecologists,"5, Palpannai",Trichy,9741657002,09:00 am - 07:00 pm,4
+120,Dr. Soubhagya T.,Gynaecologists,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,9742508417,24hours,4
+121,Dr. Manjula Amargol,Gynaecologists,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,8095462677,24hours,3
+122,Dr. K S Patil ,Gynaecologists,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,8362449377,09:00am-09:00pm,3
+123,Dr. Hemapatil Mahanthshetti,Gynaecologists,Kalburgi Cmplx,Erode,9900280185,10:00am-08:00pm,2
+124,Dr. Dodda Soujanya,Gynaecologists,Ashwamedha Trade Centre,Coimbatore,9902379949,09:00am-07:00pm,3
+125,Dr. Seema B V,Gynaecologists,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,9448944631,09:00 am - 07:00 pm,4
+126,Dr. K G M Premleela,Gynaecologists,Ghandhi Nagar,Thirunelveli,9448830592,09:00 am - 07:00 pm,4
+127,Dr. Suchitha Hoblidar,Gynaecologists,MK Nagar,Thirunelveli,9844995880,10:00am-06:00pm,4
+128,Dr. Usha R Rao,Gynaecologists,C/O M M Joshi Eye Hospital,Salem,9901722567,09:00 am - 07:00 pm,3
+129,Dr. Nisha Kanchan,Gynaecologists,"8/12, Indira Nagar",Namakkal,9844106035,10:00am-06:00pm,4
+130,Dr. Asha Neeravi,Gynaecologists,FST Road,Kumbakonam,9901722567,09:00 am - 07:00 pm,4
+131,Kasturi Dr V G,Gynaecologists,Thillai Nagr,Trichy,8362748661,10:00 am - 8:00 pm,4
+132,Tadasore Dr D C ,Gynaecologists,"GK Towers, SS Road",Kumbakonam,8362770205,9:30 am - 6:30 pm,4
+133,Dr. Havaldar G k,Gynaecologists,RR Complex,Chennai,8192277030,9:30 am - 6:30 pm,5
+134,Dr. Tavargeri S k,Physician,"P B Road,  Opposite Hotel Hoysala",Chennai,8362778387,10:00am-06:00pm,3.6
+135,Shreeya Multispeciality Hospital,Physician,"Chethan Clinic, Tikare Road",Chennai,9152622082,24 hours,3.8
+136,Dr.s R Ramanagoudar Multispeciality Hospital & Research Institute Pvt Ltd,Physician,"4/5, Tennur",Trichy,8362228236,24 hours,4.1
+137,Dr. Desai Vijayendra r,Physician,"23/7, KK Nagar",Pudukkottai,8362444301,09:30 am - 06:30 pm,4.4
+138,Dr. Satish Irkal,Physician,"7, TPK Complex, Chatram",Trichy,8362443515,10:00am-06:00pm,3.9
+139,Dr. Dileep V Deshpande,Physician,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,8362790616,09:00 am - 07:00 pm,4
+140,Dr. Srikanth Pai Sk,Physician,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8362444299,10:00 am - 4:00 pm,4.1
+141,Tavargeri Nursing Home Pvt Ltd,Physician,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,81922445183,10:00am-06:00pm,3.8
+142,Dr. Jyothi Palakshi,Physician,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,,09:00 am - 07:00 pm,4.4
+143,Dr. Sabita Kallianpurkar,Physician,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,8362363348,09:00 am - 07:00 pm,3.9
+144,Dr. Kiran Kulkarni,Physician,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8362442985,9:30 am - 9:00 pm,4.4
+145,Dr. P R Prahlad Chebbi,Physician,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,8362447934,09:00 am - 02:00 pm 06:00 pm - 08:00 pm,4
+146,Dental Care Centre,Physician,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,8362741751,10:30 am - 01:00 am 05:00 pm - 08:30 pm,3.8
+147,Dr. Rajan Deshpande,Physician,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,81923292404,8:00 am - 8:00 pm,3.5
+148,Dr. Wagale D V,Physician,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,8362441644,10:00am-06:00pm,4.4
+149,Dr. Nitin Chandra Hattikal,Physician,"15, Adayar",Chennai,8362791313,8:00 am - 8:00 pm,5
+150,Dr. Suresh Patted,Physician,"4th cross, Ramji Nagr",Chennai,,10:00am-06:00pm,4.5
+151,Shreeya Hospital,Physician,"42, North, Kattur",Trichy,8362443515,24 Hours,3.5
+152,Dr. Konnur V s,Physician,"5th cross, Anna Nagar",Pudukkottai,8362444127,8:00 am - 8:00 pm,4.7
+153,Shri SAI Dental Care,Physician,"5, Palpannai",Trichy,8362371016,09:30 am - 11:30 pm,4.6
+154,Dr. Deshpande D V,Physician,MK Nagar,Thirunelveli,,09:30 am - 10:00 pm,4
+155,Dr. Geetha Mazumdar,Physician,C/O M M Joshi Eye Hospital,Salem,8362256912,09:00 am - 07:00 pm,2.7
+156,Desai Homeopathic Pharmacy,Physician,"8/12, Indira Nagar",Namakkal,8362442376,10:00 am - 8:00 pm,5
+157,Suprabha Eye Hospital,Physician,FST Road,Kumbakonam,81926511180,8:00 am - 8:00 pm,5
+158,Dr. Anand K Patil,Physician,Thillai Nagr,Trichy,8362446677,09:30 am - 12:00 am,5
+159,Dr. Krishna Tavargere ,Physician,"GK Towers, SS Road",Kumbakonam,8362771409,09:30 am - 10:30 pm,4.5
+160,Chetana Diabetes Clinic,Physician,RR Complex,Chennai,8363203165,08:30 am - 05:00 pm,4.5
+161,Dr. Sandya Kulkarni,Physician,ST Road,Salem,8362441515,8:30 am - 7:00 pm,4.5
+162,DR. A.R. Kulkarni,Physician,"5/113, Ghandhi Market",Trichy,8362791396,09:30 am - 06:30 pm,4.5
+163,Dr. Sambrani S d,Physician,Vijaya road,Chennai,8362443320,09:00 am - 07:00 pm,4
+164,Dr. S.K. Jamadar,Physician,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,8362797814,10:00 am - 8:00 pm,3.5
+165,Dr. Suresh Kanavikar,Physician,"P B Road,  Opposite Hotel Hoysala",Chennai,8362777009,10:30 am - 01:00 pm 06:00 pm - 08:00 pm,3.5
+166,Adityakiran Ayurvedic Clinic,Physician,"Chethan Clinic, Tikare Road",Chennai,9448261426,12:00 am - 10:00 pm,3
+167,Dr. H L Mankani,Physician,"4/5, Tennur",Trichy,8362463210,10:30 am - 12:30 pm,5
+168,Dr. R Desai Radhamani,Physician,"23/7, KK Nagar",Pudukkottai,8362743760,10:00 am - 5:00 pm,5
+169,Dr. Pavate P p,Physician,"7, TPK Complex, Chatram",Trichy,8362770980,10:00am-06:00pm,5
+170,Dr. Dsouza Td ,Physician,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,8362743990,10:00 am - 8:00 pm,5
+171,Dr. Anegundi T j ,Physician,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8362794806,10:00am-06:00pm,5
+172,Dr. A.G. Patil,Physician,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,8362741082,10:00 am - 8:00 pm,5
+173,Dr. Ashwin Kulkarni,Physician,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,8362446646,09:30 am - 06:30 pm,5
+174,Dr. Mulamuttal Mahendra n,Physician,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,8362749822,09:30 am - 06:30 pm,5
+175,Dr. Mishael J Kuri,Physician,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,9980475469,9:00 am - 2:30 pm 5:30 pm - 9:00 pm,5
+176,Dr. Apsangi,Physician,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,8362743342,10:30 am - 02:00 pm,5
+177,Dr. Varun Joshi,Physician,Kalburgi Cmplx,Erode,9743579873,5:30 pm - 8:30 pm,5
+178,Parimala Clinic,Physician,Ashwamedha Trade Centre,Coimbatore,9886672640,10:30 am - 1:30 pm 6:30 pm - 9:00 pm,5
+179,Dr. M N Rayangoudar,Physician,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,8050343295,10:30 am - 01:30 pm,5
+180,DR. Shindhe Arjunarao Baburao,Physician,Ghandhi Nagar,Thirunelveli,8370280919,09:30 am - 09:30 pm,5
+181,Vijay Dental Clinic,Physician,MK Nagar,Thirunelveli,8362742578,10:00 am - 8:00 pm,4.5
+182,Shravya Hospital,Physician,C/O M M Joshi Eye Hospital,Salem,8362746138,24 Hours,4
+183,Dr. Bheemannavar ,Physician,"8/12, Indira Nagar",Namakkal,8362788276,8:00 am - 8:00 pm,4
+184,Dr. N.h. Kularni,Physician,FST Road,Kumbakonam,8362744046,09:30 am - 11:30 pm,4
+185,Dr. Hubli S v,Physician,Thillai Nagr,Trichy,8362447014,8:00 am - 8:00 pm,4
+186,Dr. Sanjeev Kulkarni,Physician,"GK Towers, SS Road",Kumbakonam,8362770847,09:00 am - 07:00 pm,4
+187,Dr. Kaulgud M s,Physician,RR Complex,Chennai,,09:30 am - 11:30 pm,3
+188,DR. A.G. Patil,Physician,ST Road,Salem,8362448037,09:30 am - 06:30 pm,3
+189,Dr. A.R. Kulkarni,Physician,"5/113, Ghandhi Market",Trichy,81922773070,10:00 am - 8:00 pm,3
+190,Dr. Munoli S s,Physician,Vijaya road,Chennai,8362323117,09:30 am - 11:30 pm,3
+191,Dr. Nandagouda R n,Physician,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,8362463046,10:00am-06:00pm,3
+192,Kushi Clinic,Physician,"P B Road,  Opposite Hotel Hoysala",Chennai,9880073571,09:30 am - 10:00 pm,3
+193,Priya's Family Clinic,Physician,"Chethan Clinic, Tikare Road",Chennai,9480127700,09:30 am - 06:30 pm,3
+194,Dr. Soppimath S. S,Physician,"4/5, Tennur",Trichy,8362252944,09:30 am - 06:30 pm,2
+195,Shekhargouda M Dr,Physician,"23/7, KK Nagar",Pudukkottai,8362743141,10:00 am - 8:00 pm,2
+196,Patil Maternity & Children Hospital,Physician,"7, TPK Complex, Chatram",Trichy,81922442963,24 Hours,1
+197,"Allergy And Asthma Care Center 
+",Physician,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,8362746141,10:00 am - 12:00 am,1
+198,Dr. V S Kadkol,Physician,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8362446156,09:30 am - 06:30 pm,1
+199,Kaulgud Dr M s,Physician,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,8362771133,10:00 am - 8:00 pm,2
+200,Dr. Sandeep S Neeralagi ,Physician,"15, Adayar",Chennai,8362740330,10:00am-06:00pm,3
+201,"Dr. Jituri Rd 
+",Physician,"4th cross, Ramji Nagr",Chennai,8362370685,10:00 am - 8:00 pm,4
+202,Malowade Dr Rajendra Rao ,Physician,"42, North, Kattur",Trichy,9900223687,10:00am-06:00pm,3
+203,Galgali Clinic,Physician,"5th cross, Anna Nagar",Pudukkottai,8362777804,09:30 am - 01:30 pm 06:30 pm - 09:30 pm,4
+204,Dr. Biradar Vs ,Physician,"5, Palpannai",Trichy,81922332539,09:00 am - 07:00 pm,3
+205,Dr. Chikkenur R s,Physician,Ashwamedha Trade Centre,Coimbatore,8362462825,09:30 am - 10:00 pm,4
+206,"Dr. H Basavaraj 
+",Physician,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,8380225612,09:30 am - 08:30 pm,3
+207,Shri SAI Nursing Home & Institute Of Nursing,Physician,Ghandhi Nagar,Thirunelveli,8362446309,10:00 am - 8:00 pm,4
+208,Dr. T.V. Tiwari ,Physician,MK Nagar,Thirunelveli,8362744795,09:00 am - 07:00 pm,3
+209,Dr. Belagatti S l ,Physician,C/O M M Joshi Eye Hospital,Salem,81922445849,10:00am-06:00pm,4
+210,Dr. VRB Acharya,Physician,"8/12, Indira Nagar",Namakkal,8362747444,09:30 am - 11:30 pm,3
+211,Dr. Ravi Patil b,Physician,FST Road,Kumbakonam,8362431336,10:00 am - 8:00 pm,4
+212,Dr. Ghatti S n ,Physician,Thillai Nagr,Trichy,8362440062,10:00am-06:00pm,3
+213,Ganga Sitara Nursing Home,Physician,"GK Towers, SS Road",Kumbakonam,8362444271,10:00am-06:00pm,4
+214,Dr. R.S. Mahish,Physician,RR Complex,Chennai,8362440946,8:00 am - 8:00 pm,3
+215,Homeopathic Health Care Centre ,Physician,ST Road,Salem,8363409551,09:00 am - 07:00 pm,4
+216,Dr. S.K. Banavi,Physician,"5/113, Ghandhi Market",Trichy,8362347915,10:00am-06:00pm,4
+217,Sri Ganesh Clinic ,Physician,Vijaya road,Chennai,9480028409,11:30 am - 01:30 pm 07:30 pm - 08:30 pm,4
+218,Dr. A I Sanakal,Physician,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,8362744129,09:00 am - 07:00 pm,3
+219,Dr. M S Patil,Physician,"P B Road,  Opposite Hotel Hoysala",Chennai,8362444209,09:30 am - 11:30 pm,4
+220,Dr. S D Karchi ,Physician,"Chethan Clinic, Tikare Road",Chennai,8362462803,09:30 am - 10:00 pm,3
+221,"Dr. Basanagoudar Praveen 
+",Physician,"4/5, Tennur",Trichy,8362773893,09:30 am - 10:30 pm,4
+222,DR. T.V. Tiwari ,Physician,"23/7, KK Nagar",Pudukkottai,8362441968,09:30 am - 06:30 pm,3
+223,SAI Charan Multispeciality Dental Clinic ,Physician,"7, TPK Complex, Chatram",Trichy,8362777244,10:00 am - 01:30 pm,4
+224,Mamata Dr M b,Physician,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,6742448992,09:00 am - 08:00 pm,3
+225,"Nikhil Nursing Home 
+",Physician,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,9742878680,24 Hours,4
+226,Dr. N.S. Inamati,Physician,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,8362391433,10:00 am - 8:00 pm,3
+227,"Pujari Clinic & Diabetes Center 
+",Physician,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,8362749832,09:00 am - 08:00 pm,4
+228,Dr. Puranikmath S c,Physician,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,8362443511,09:00 am - 07:00 pm,4
+229,Dr. Patil M h,Physician,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,8362444807,10:00 am - 01:30 pm,3
+230,Dr. Araujo Joseph a,Physician,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,8362790645,09:00 am - 08:00 pm,3
+231,Positive Homeopathy ,Physician,Kalburgi Cmplx,Erode,9152784565,24 Hours,3.8
+232,Varsha's Sugar Clinic ,Physician,Ashwamedha Trade Centre,Coimbatore,9152583356,9:00 am - 1:00 pm 5:00 pm - 8:00 pm,4.3
+233,Dr. Anegundi Clinic ,Physician,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,9152254620,12:30 pm - 4:30 pm 6:30 pm - 7:30 pm,5
+234,Regional Neuro Science Center,Physician,Ghandhi Nagar,Thirunelveli,8362357000,09:00 am - 08:00 pm,4
+235,Dr. Bhargav,Physician,MK Nagar,Thirunelveli,9243256399,11:00 am - 2:00 pm,3.5
+236,Pulse Health Care And Diabetes Clinic,Physician,C/O M M Joshi Eye Hospital,Salem,9152821991,9:00 am - 7:00 pm,4.2
+237,Dr. R B Patil Nursing Home,Physician,"8/12, Indira Nagar",Namakkal,8362372152,24 Hours,4.3
+238,City Clinic,Physician,FST Road,Kumbakonam,8362228396,24 Hours,4.3
+239,Shri Balaji Institute Of Neuro Sciences And Trauma,Physician,Thillai Nagr,Trichy,8362376666,24 Hours,3.8
+240,Yelamali Nursing Home,Physician,"GK Towers, SS Road",Kumbakonam,8362228212,8:00 am - 8:00 pm,4.3
+241,Shakuntala Memorial Hospital & School Of Nursing,Physician,RR Complex,Chennai,8362228271,24 Hours,3.9
+242,Manvi Multispeciality Hospital,Physician,ST Road,Salem,8362228390,24 Hours,4.3
+243,Dr. Venkatesh Moger,Physician,"5/113, Ghandhi Market",Trichy,8362354369,10:00am-06:00pm,4.1
+244,Dr. Kulakarni L S (Dr. L S Kulkarni Centre For Child Care),Physician,Vijaya road,Chennai,8362373437,09:00 am - 08:00 pm,4
+245,Dr. Nagabhushan S Hiremath ,Physician,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,8362228366,02:00 pm - 08:00 pm,4.4
+246,Dr. Chandramohan (skin Care & Cure Clinic),Physician,"15, Adayar",Chennai,8362352999,9:30 am - 6:30 pm,4.4
+247,Dr. Sattur G B Medical Care,Physician,"4th cross, Ramji Nagr",Chennai,8362351323,10:00am-06:00pm,4.2
+248,Manvi Hospital,Physician,"42, North, Kattur",Trichy,8362250348,10:00 am - 8:00 pm,3.9
+249,Jituri Hospital,Physician,"5th cross, Anna Nagar",Pudukkottai,8362371811,24 Hours,3.7
+250,Ashoka Hospital,Physician,"5, Palpannai",Trichy,8362373778,10:00 am - 05:00 pm,4.1
+251,Shushrusha Nursing Home,Physician,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,8362250077,9:30 am - 6:30 pm,3.9
+252,Dr. Gokavis Maternity & General Hospital,Physician,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8362362019,24 Hours,4.3
+253,Joshi Nursing Home,Physician,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,8362228341,24 Hours,4.4
+254,Sharda Clinic,Physician,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,8362373322,09:00 am - 02:00 am 05:30 am - 09:30 am,4.2
+255,Dr. Renuka R Dugani,Physician,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,8362357100,24 Hours,4
+256,Manasa Nursing Home,Physician,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,8362372047,12:00 pm - 04:00 am 07:00 am - 09:00 am,4.2
+257,Dr. V G Nadgouda,Physician,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,8362352989,09:30 am - 09:30 pm,4.8
+258,Vishwas The Womens Clinic,Physician,Kalburgi Cmplx,Erode,9538958520,07:00 am - 08:00 pm,4.8
+259,Dr. Kinis Endoscopic Centre,Physician,Ashwamedha Trade Centre,Coimbatore,8362228247,10:00 am - 06:00 pm,4
+260,Ayurvaid Hospital ,Physician,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,8364265622,8:00 am - 8:00 pm,3
+261,Sindur Nursing Home,Physician,Ghandhi Nagar,Thirunelveli,8362372434,11:00 am - 09:00 pm,4.6
+262,Dr. Jaideep Ratkal m,Physician,MK Nagar,Thirunelveli,8362228392,11:00 am - 02:00 pm 06:00 pm - 08:00 pm,4.6
+263,Shankuntal Nursinh Home,Physician,C/O M M Joshi Eye Hospital,Salem,8362372144,09:00 am - 08:00 pm,4.3
+264,Dr. Palekar M S,Physician,"8/12, Indira Nagar",Namakkal,8362286501,10:00 am - 6:00 pm,4.1
+265,Dr. Sanjeev S Kalsoor ,Physician,FST Road,Kumbakonam,8362228377,9:00 am - 7:00 pm,4
+266,Vision Eye Hospital,Physician,Thillai Nagr,Trichy,8362305628,9:00 am - 1:00 pm 3:00 pm - 5:00 pm,4.7
+267,Dr. Chandrashekar S Patil,Physician,"GK Towers, SS Road",Kumbakonam,8362265225,8:00 am - 8:00 pm,4.4
+268,Dhanvanthri Clinic,Physician,RR Complex,Chennai,8362333760,8:00 am - 1:30 pm 5:00 am - 10:00 am,4.5
+269,Dr. Hallikeri Nirmala Physiotherapy & Rehabt Centre,Physician,ST Road,Salem,8362363041,8:00 am - 8:00 pm,4.5
+270,Mirajkars Nursing Home,Physician,"5/113, Ghandhi Market",Trichy,8362252452,24 Hours,4.3
+271,Dr. Narendra Hiregoudar S,Physician,Vijaya road,Chennai,8362351059,9:30 am - 6:30 pm,4.1
+272,Dr. Raghavendra Desai,Physician,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,9448184013,11:00 am - 09:00 pm,3.9
+273,Dr. Madgaonkar C S,Physician,"P B Road,  Opposite Hotel Hoysala",Chennai,8362363135,09:30 am - 07:30 pm,4.8
+274,Nandini Child Care Centre,Physician,"Chethan Clinic, Tikare Road",Chennai,8362267641,24 Hours,3.9
+275,Shivaleela Hospital,Physician,"4/5, Tennur",Trichy,8362372998,24 Hours,3.2
+276,Dr. Katit Ranjana ,Physician,"23/7, KK Nagar",Pudukkottai,8362228372,10:00 am - 01:30 pm,5
+277,Dr. Ravi Kalghatgi,Physician,"7, TPK Complex, Chatram",Trichy,8362228334,9:30 am - 6:30 pm,4.5
+278,Dr. Hanamaraddi S R,Physician,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,8362267641,12:00 pm - 03:00 pm 08:00 pm - 10:00 pm,4.5
+279,Dr. Anand Koppd,Physician,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8362257310,9:30 am - 6:30 pm,4.5
+280,Dr. Bijapur Clinic,Physician,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,8362305459,09:30 am - 06:30 pm,4.3
+281,Hubli Hospital,Physician,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,,24 Hours,4.1
+282,Dr. Alnavar S R,Physician,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,,09:30 am - 06:30 pm,4
+283,Dr. Wali D R,Physician,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,8362332872,11:00 am - 03:00 pm 07:30 pm - 10:00 pm,4
+284,Dr. S. C Kulkarni,Physician,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,8362260585,03:30 pm - 07:00 pm,3.8
+285,Uma Nursing Home ,Physician,Kalburgi Cmplx,Erode,8362250767,24 Hours,3.5
+286,Dr. Joshi Bt ,Physician,Ashwamedha Trade Centre,Coimbatore,8362367544,10:00 am - 01:30 pm,3.5
+287,Dr. Devdas Madhukar ,Physician,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,8362242864,11:00 am - 09:00 pm,5
+288,Dr. Lokare R V,Physician,Ghandhi Nagar,Thirunelveli,8362268370,10:30 am - 03:30 pm 06:30 pm - 09:00 pm,4.8
+289,Sdm Polyclinic ,Physician,MK Nagar,Thirunelveli,8362277201,8:30 am - 5:00 pm,4.7
+290,Dr. Mehta b,Physician,C/O M M Joshi Eye Hospital,Salem,8362228292,10:00am-06:00pm,4.7
+291,"Dr. Badkars Clinic 
+",Physician,"8/12, Indira Nagar",Namakkal,8362350521,09:30 am - 06:30 pm,4.7
+292,Dr. Baliga R u,Physician,FST Road,Kumbakonam,8362208462,10:00am-06:00pm,4.7
+293,Dr. Deshpande M P,Physician,Thillai Nagr,Trichy,8362372621,24 Hours,4.5
+294,Dr. Narayan Hebsur,Physician,"GK Towers, SS Road",Kumbakonam,8362355659,8:00 am - 8:00 pm,4.3
+295,Maruti Clinic,Physician,RR Complex,Chennai,9343670999,10:30 am - 02:30 pm 06:00 pm - 10:00 pm,4.3
+296,Dr. Kulkarni V h,Physician,ST Road,Salem,8362333366,09:30 am - 09:00 pm,4.3
+297,Dr. Achar J V,Physician,"5/113, Ghandhi Market",Trichy,8362363014,11:00 am - 09:30 pm,4
+298,Sou.mandakini Diabetic Limb Salvage Center,Physician,"15, Adayar",Chennai,8362355707,24 Hours,3.3
+299,Dr. Katwe S t,Physician,"4th cross, Ramji Nagr",Chennai,8362264084,09:00 am - 07:00 pm,3
+300,Dr. Devika Vanahalli ,Physician,"42, North, Kattur",Trichy,8362375077,11:00 am - 09:00 pm,2.8
+301,Dhanpal Dr Hegde,Physician,"5th cross, Anna Nagar",Pudukkottai,8362373221,10:00 am - 01:30 pm,4.7
+302,Kallian Purkar Nursing Home,Physician,"5, Palpannai",Trichy,8362251889,24 Hours,3.4
+303,Dr. Hiregoudar U R ,Physician,"23/7, KK Nagar",Pudukkottai,8362287434,09:30 am - 06:30 pm,5
+304,Dr. Patil G M,Physician,"7, TPK Complex, Chatram",Trichy,8362253100,09:30 am - 06:30 pm,5
+305,Dr. Devadas,Physician,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,8362376486,09:00 am - 08:00 pm,5
+306,Mangala Nursing & Maternity Home,Physician,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,9448355838,09:30 am - 06:30 pm,5
+307,Dr. Desai,Physician,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,8362373363,11:00 am - 09:00 pm,5
+308,Santoolan Mental Health Centre And ECG Lab,Physician,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,8362351565,09:30 am - 06:30 pm,5
+309,Dr. Vasant Revankar ,Physician,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,8362240833,11:30 am - 3:00 pm,5
+310,Dr. Sanjay Neeralgi (Sai Pooja Clinic) ,Physician,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,8362360327,09:30 am - 09:00 pm,5
+311,Dattis Nursing Home,Physician,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,8362372457,09:30 am - 06:30 pm,4.5
+312,Dr. Patil B B ,Physician,Kalburgi Cmplx,Erode,8362332100,09:00 am - 08:00 pm,4.5
+313,Dr. Hiremath S b,Physician,Ashwamedha Trade Centre,Coimbatore,8362373251,10:00am-06:00pm,4.5
+314,Skincare Centre ,Physician,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,8362353432,09:30 am - 06:30 pm,4.5
+315,Dr. Pradeep D c,Physician,Ghandhi Nagar,Thirunelveli,8362269059,10:00am-06:00pm,4.5
+316,Dr. Angadi C C,Physician,MK Nagar,Thirunelveli,8362372344,09:00 am - 08:00 pm,4.5
+317,Kamath Hospital,Physician,C/O M M Joshi Eye Hospital,Salem,8362264403,24 Hours,4.5
+318,Dr. Naregal M V,Physician,"8/12, Indira Nagar",Namakkal,8362228202,09:30 am - 06:30 pm,4
+319,Dr. S V Konnur,Physician,FST Road,Kumbakonam,8362304550,09:30 am - 06:30 pm,4
+320,Orthopedic And Accident Centre,Physician,Thillai Nagr,Trichy,8362365636,10:00 am - 07:00 pm,4
+321,Dr. Desai ,Physician,"GK Towers, SS Road",Kumbakonam,8362366244,10:00 am - 09:00 pm,3.8
+322,Dr. Nadig J k,Physician,RR Complex,Chennai,8362351544,10:00 am - 01:00 pm,3.8
+323,B B Jayashankar Dr,Physician,ST Road,Salem,8362261420,09:30 am - 06:30 pm,3.5
+324,Dr. Savitha Kanakpur S H,Physician,"5/113, Ghandhi Market",Trichy,8362228292,8:00 am - 8:00 pm,3
+325,Dr. Shreekant N Meharwade,Physician,Vijaya road,Chennai,9844055273,10:00 am - 8:00 pm,3
+326,Dr. Jyothi ,Physician,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,9964028541,09:30 am - 12:00 am,3
+327,Dr. Suresh K M P,Physician,"P B Road,  Opposite Hotel Hoysala",Chennai,8362282428,10:00 am - 07:00 pm,3
+328,Dr. Agadi,Physician,"Chethan Clinic, Tikare Road",Chennai,8362374623,10:00 am - 8:00 pm,2.5
+329,Dr. Harish Joshi,Physician,"4/5, Tennur",Trichy,8362357211,9:00 am - 2:00 pm,4.4
+330,"Dr. Sashok Mudaraddi 
+",Physician,"23/7, KK Nagar",Pudukkottai,8362375367,09:00 am - 08:00 pm,5
+331,Dr S R Ramangoudar,Cardiologist,"7, TPK Complex, Chatram",Trichy,8976459123,10:00 am- 5:00 pm,4.1
+332,Sdm Narayan Hrudayalaya,Cardiologist,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,7668457082,10:00 am- 5:00 pm,3.9
+333,Dr Suresh Patted,Cardiologist,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,7385321480,10:00 am- 5:00 pm,5
+334,Dr Shakapur Chaudappa,Cardiologist,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,9975425410,10:00 am- 5:00 pm,3.5
+335,Dr Maheshwar D Honalli,Cardiologist,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,7745398120,10:00 am- 5:00 pm,5
+336,Heart Care Centre,Cardiologist,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,8856381352,4:00 pm -8:00 pm,4
+337,Dr Keerthy,Cardiologist,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,9075364321,4:00 pm -8:00 pm,3.2
+338,Dr Vivekanand,Cardiologist,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,9945678132,4:00 pm -8:00 pm,4
+339,Dr Somashekar K S,Cardiologist,Kalburgi Cmplx,Erode,9723589018,10:00 am- 05:00 pm,5
+340,Dr Vivekanand SG,Cardiologist,"15, Adayar",Chennai,7863201983,10:00 am- 9:00pm,4
+341,Dr Mahalingappa,Cardiologist,"4th cross, Ramji Nagr",Chennai,7801728935,9:00 am- 8:00 pm,3
+342,Dr Chebbi P r,Cardiologist,"42, North, Kattur",Trichy,7257046391,10:00 am- 9:00pm,5
+343,Positive Homeopathy,Cardiologist,"5th cross, Anna Nagar",Pudukkottai,8971556803,9:00 am- 8:00 pm,3.8
+344,Pulse health Care and Diabities,Cardiologist,"5, Palpannai",Trichy,8362202789,10:00 am- 9:00pm,4.2
+345,Dr Bhargav,Cardiologist,"8/12, Indira Nagar",Namakkal,7289982615,10:00 am- 9:00pm,3.5
+346,Dr VijayKrishna Kolur,Cardiologist,FST Road,Kumbakonam,9986534725,9:00 am- 8:00 pm,3.4
+347,Suchirayu Hospital,Cardiologist,Thillai Nagr,Trichy,9416372618,10:00 am- 9:00pm,3.8
+348,Shri Balaji Hospital,Cardiologist,"GK Towers, SS Road",Kumbakonam,8967154427,9:00 am- 8:00 pm,3.8
+349,Heart Care Centre,Cardiologist,RR Complex,Chennai,9981653267,9:00 am- 8:00 pm,4.5
+350,sdm Narayan Hrudayalaya,Cardiologist,ST Road,Salem,9145672198,10:00 am- 5:00 pm,4
+351,Ayurvaid Hospital,Cardiologist,"5/113, Ghandhi Market",Trichy,9741109471,10:00 am- 9:00pm,3
+352,Sindur Nursing Home,Cardiologist,Vijaya road,Chennai,9801627892,10:00 am- 9:00pm,4.6
+353,Dr Narendra Hiregoudar S,Cardiologist,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,8917652014,9:00am-8:pm,4.1
+354,Dr Anand Koppad,Cardiologist,"P B Road,  Opposite Hotel Hoysala",Chennai,8899715628,24hours,4.5
+355,kles Heart Hospital,Cardiologist,"Chethan Clinic, Tikare Road",Chennai,7788176511,4:00 pm -8:00 pm,4.3
+356,Dr Meena Shetty,Cardiologist,"4/5, Tennur",Trichy,7899197166,4:00 pm -8:00 pm,4.5
+357,Vikas Clinic,Cardiologist,"23/7, KK Nagar",Pudukkottai,9871618898,10:00 am- 5:00 pm,5
+358,Dr Neela Kashinkunti M D,Cardiologist,"7, TPK Complex, Chatram",Trichy,9188191765,4:00 pm -8:00 pm,5
+359,Diabetes Multi speciality center,Cardiologist,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,8888176151,10:00 am- 5:00 pm,5
+360,Dr Basavaraj Baligar,Cardiologist,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,9782739127,10:00 am- 5:00 am,3
+361,Dr Narendra Hiregoudar S,Cardiologist,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,7186712912,4:00 pm -5:00 pm,5
+362,Dr Akkamahadevi A S,Cardiologist,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,8173982810,10:00 am- 5:00 pm,4.5
+363,Cardiodiabetes clinic,Cardiologist,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,7318280112,10:00 am- 5:00 pm,5
+364,kamat clinic,Cardiologist,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,9291237111,10:00 am- 5:00 pm,3.5
+365,Dr Udayraj Ranwal,Cardiologist,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,9987669190,4:00 pm -9:00 pm,5
+366,Mutalik Patil Dr S V,Cardiologist,Kalburgi Cmplx,Erode,8817816268,4:00 pm -8:00 pm,4.1
+367,Bhanashankari Hospital,Cardiologist,Ashwamedha Trade Centre,Coimbatore,8899892711,4:00 pm -9:00 pm,3.8
+368,Kalavthi Memeorial Clinic,Cardiologist,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,9900078267,4:00 pm -9:00 pm,5
+369,Positive Homeopathy,Gastroentrologist,Ghandhi Nagar,Thirunelveli,9876578968,9:00 am- 7:00 pm,3.8
+370,Suchirayu hospital,Gastroentrologist,MK Nagar,Thirunelveli,6748905098,10:00 am- 5:00 pm,3.8
+371,Ayurvaid Hospital,Gastroentrologist,C/O M M Joshi Eye Hospital,Salem,8098578963,9:00 am- 9:00 pm,3
+372,Dr Ganesh Kini,Gastroentrologist,"8/12, Indira Nagar",Namakkal,9856474309,9:00 am- 7:00 pm,3.5
+373,Dr Joshi Bt,Gastroentrologist,FST Road,Kumbakonam,8977654321,10:00 am- 5:00 pm,3.5
+374,Dr Mehta b,Gastroentrologist,Thillai Nagr,Trichy,7789065478,9:00 am- 7:00 pm,4.7
+375,city gastro care,Gastroentrologist,"GK Towers, SS Road",Kumbakonam,8900007654,10:00 am- 5:00 pm,5
+376,shripriya Clinic,Gastroentrologist,RR Complex,Chennai,9872341009,10:00 am -2:00 pm,4.8
+377,Hubli Surgical Gastroentrologist,Gastroentrologist,ST Road,Salem,9876604213,9:00 am- 7:00 pm,5
+378,City Gastro Care,Gastroentrologist,"5/113, Ghandhi Market",Trichy,8709996512,9:00 am- 7:00 pm,4.9
+379,Dr Laxmikant Desai,Gastroentrologist,Vijaya road,Chennai,9644531278,10:00 am- 5:00 pm,4
+380,Dr Hiremath S c,Gastroentrologist,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,6678431246,10:00 am- 5:00 pm,2
+381,Dr Prabhu M N,Gastroentrologist,"P B Road,  Opposite Hotel Hoysala",Chennai,9988765432,9:00 am- 7:00 pm,4
+382,arvind,Gastroentrologist,"Chethan Clinic, Tikare Road",Chennai,7789043215,9:00 am- 9:00 pm,4
+383,Dr Suhas Kalaghatgi,Gastroentrologist,"4/5, Tennur",Trichy,7988653210,10:00 am- 5:00 pm,3
+384,Dr Chandru M c,Gastroentrologist,"23/7, KK Nagar",Pudukkottai,9889095321,9:00 am- 7:00 pm,3.8
+385,Dr Sudhir,Gastroentrologist,"7, TPK Complex, Chatram",Trichy,9970854321,10:00 am- 5:00 pm,4
+386,Dr Raichur,Gastroentrologist,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,9790435689,9:00 am- 9:00 pm,4.3
+387,Dr srishail Chiniwalar,Gastroentrologist,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8094958321,10:00 am- 5:00 pm,3.9
+388,Dr Ailappanavar,Gastroentrologist,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,9062124566,9:00 am- 9:00 pm,2.8
+389,Dr Muttagi,Gastroentrologist,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,6799653246,9:00 am- 7:00 pm,5
+390,Dr Kundagol M v,Gastroentrologist,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,8676640689,9:00 am- 9:00 pm,4.3
+391,Dr Marakummbi C r,Gastroentrologist,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,9886564368,9:00 am- 7:00 pm,2.3
+392,Dr Lingade S s,Gastroentrologist,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,8795424567,4:00 pm -8:00 pm,3
+393,Dr Gidnavar,Gastroentrologist,Kalburgi Cmplx,Erode,8965643091,9:00 am- 7:00 pm,5
+394,Dr Murari S S,Gastroentrologist,Ashwamedha Trade Centre,Coimbatore,8987897320,10:00 am- 5:00 pm,4
+395,Dr Kittur A f,Gastroentrologist,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,9866674488,24hours,5
+396,Dr Pavate P p,Gastroentrologist,Ghandhi Nagar,Thirunelveli,9789957569,10:00 am- 5:00 pm,3.6
+397,Dr Nadig S V,Gastroentrologist,MK Nagar,Thirunelveli,9897860897,9:00 am- 7:00 pm,3.8
+398,Shreeya MultiSpeciality Hospital,Dermatologist,C/O M M Joshi Eye Hospital,Salem,8975427190,10:00 am- 5:00 pm,3.8
+399,Dr Desai Vijayendra r,Dermatologist,"8/12, Indira Nagar",Namakkal,9897891823,10:00 am -1:00 pm,4.4
+400,Dr O A Mahipals Skin Clinic,Dermatologist,"15, Adayar",Chennai,9887291827,10:00 am- 5:00 pm,3.7
+401,Dr J R Kazi,Dermatologist,"4th cross, Ramji Nagr",Chennai,9287829119,10:00 am- 5:00 pm,4.1
+402,Dr Gouri,Dermatologist,"42, North, Kattur",Trichy,8798989872,10:00 am- 5:00 pm,3.3
+403,Gouri,Dermatologist,"5th cross, Anna Nagar",Pudukkottai,9819281122,8:00 am -2:00 pm,5
+404,Dr Gaurang Gupta,Dermatologist,"5, Palpannai",Trichy,9823993793,6:00 pm -8:00 pm,4
+405,Skin Care & Cure Clinic,Dermatologist,"5/113, Ghandhi Market",Trichy,8098898111,10:00 am -8:00 pm,1
+406,Bendigeri Dr B P,Dermatologist,Vijaya road,Chennai,9898201281,10:00 am- 9:00 pm,3
+407,Dr Naveen K n,Dermatologist,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,9089778789,10:00 am -9:00 pm,4
+408,Vani memorial clinic,Dermatologist,"P B Road,  Opposite Hotel Hoysala",Chennai,9992673283,10:00 am- 6:00 pm,5
+409,Sanjivini Clinic,Dermatologist,"Chethan Clinic, Tikare Road",Chennai,9082735278,9:00 am- 8:00 pm,4
+410,Dr Kartik Raju Konati,Dermatologist,"4/5, Tennur",Trichy,8393927293,11:00 am -6:00 pm,3
+411,Dr Abdul Kareem Bashi clinic,Dermatologist,"23/7, KK Nagar",Pudukkottai,7392839202,100:00 pm -8:00 pm,3.9
+412,Positive Homeopathy,Dermatologist,"7, TPK Complex, Chatram",Trichy,9392730229,10:00 am- 6:00 pm,3.8
+413,Dr Bhargav,Dermatologist,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,8928382933,10:00 am -2:00 pm,4.2
+414,Yelamali Nursing Home,Dermatologist,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8928392937,8:00 am- 5:00 pm,4.3
+415,"Dr Batra,s HelathCare Clinics",Dermatologist,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,9928386232,10:00 am- 5:00 pm,3.7
+416,VLCC Healthcare limtited,Dermatologist,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,9886682251,10:00 am -8:00 pm,4.3
+417,Dr Raghavendra S Tophakhane,Dermatologist,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,9087864147,6:00 pm -8:00 pm,4.1
+418,Kolors Health Care India Pvt ltd,Dermatologist,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,7980897866,6:00 pm -8:00 pm,5
+419,Mohan Skin Care Clinic,Dermatologist,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,9788799647,9:00 am- 5:00 pm,4.9
+420,Suraksha Clinic,Dermatologist,Kalburgi Cmplx,Erode,6877664380,10:00 am -1:00 pm,4.2
+421,Dr Ravi M Rathod,Dermatologist,Ashwamedha Trade Centre,Coimbatore,9786755621,10:00 am -2:00 pm,4.7
+422,Hubli Skin Clinic,Dermatologist,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,8978645438,6:00 pm -8:00 pm,5
+423,Ayurvaid Hospital,Dermatologist,Ghandhi Nagar,Thirunelveli,7675348996,6:00 pm -8:00 pm,3
+424,Palekar M S,Dermatologist,MK Nagar,Thirunelveli,9889543357,9:00 am-5:00 pm,4.1
+425,Dr Savita Raichur,Dermatologist,C/O M M Joshi Eye Hospital,Salem,9753237811,10:00 am- 7:00 pm,4.3
+426,Sparsh Clinic,Dermatologist,"8/12, Indira Nagar",Namakkal,8978426292,6:00 pm -8:00 pm,3.4
+427,Kudligi Chandramohan,Dermatologist,FST Road,Kumbakonam,8973237193,9:00 am- 8:00 pm,4.8
+428,Dr Kudlskin Cure And Care Clinic,Dermatologist,Thillai Nagr,Trichy,9173813791,6:00 pm -8:00 pm,4.8
+429,Dr Pradeep Vittal  Bhagwat,Dermatologist,"GK Towers, SS Road",Kumbakonam,8918397193,10:00 am- 6:00 pm,4
+430,Desai H V,Dermatologist,RR Complex,Chennai,9981937713,6:00 pm -8:00 pm,3.7
+431,Skincare Centre,Dermatologist,ST Road,Salem,8108391838,10:00 am -12:00 pm,4.5
+432,Chirayu Clinic,Dermatologist,"5/113, Ghandhi Market",Trichy,8901839713,6:00 pm -8:00 pm,5
+433,Ayurbliss Ayurveda centre,Dermatologist,Vijaya road,Chennai,9081973811,9:00 am- 9:00 pm,5
+434,Dr Asha Patil,Dermatologist,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,8081937131,10:00 am- 5:00 pm,4
+435,Dr Smitha Magavi S,Dermatologist,"P B Road,  Opposite Hotel Hoysala",Chennai,8989736713,5:00 pm -8:00 pm,4
+436,Shubham Clinic,Dermatologist,"Chethan Clinic, Tikare Road",Chennai,9881637153,10:00 am -6:00 pm,1
+437,Dr Hattimattur,Dermatologist,"4/5, Tennur",Trichy,7837199183,8:00 am- 6:00 pm,3
+438,Dr Mitaxari M Hugar,Dermatologist,"23/7, KK Nagar",Pudukkottai,9038918613,9:00 am- 5:00 pm,4.5
+439,Dr garag s,Dermatologist,"7, TPK Complex, Chatram",Trichy,6677381739,10:00 am- 6:00 pm,3.8
+440,Dr Shashi Patil,Dermatologist,MK Nagar,Thirunelveli,9878163711,9:00 am- 5:00 pm,3
+441,Dr Srinivas ,Dermatologist,C/O M M Joshi Eye Hospital,Salem,8178173163,9:00 am- 7:00 pm,4
+442,Spandana Health care,Dermatologist,"8/12, Indira Nagar",Namakkal,8138168379,10:00 am -8:00 pm,3
+443,Sagar Multi Speciality,Dermatologist,FST Road,Kumbakonam,7381391903,9:00 am- 5:00 pm,4
+444,Dr Patil M N,Dermatologist,Thillai Nagr,Trichy,6879197379,11:00 am- 5:00 pm,3
+445,Dr Soumya Shree,Dermatologist,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,6679837183,10:00 am -7:00 pm,4
+446,Dr Shruti Tegginamani Akin and Laser Care,Dermatologist,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,8988108391,10:00 am- 8:00 pm,3
+447,Dr.Dileep V Deshpande,Orthopaedic,Kalburgi Cmplx,Erode,8362790616,24 hours,4
+448,Dr.S.R Ramanagoudar,Orthopaedic,Ashwamedha Trade Centre,Coimbatore,8362228236,24 hours,4.1
+449,Dr.Satish Irakal,Orthopaedic,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,8362443515,24 hours,3.9
+450,Rashmi Orthodontic,Orthopaedic,Ghandhi Nagar,Thirunelveli,8362446677,09:30am - 6:30pm,4.2
+451,Dr.Kiran Kulkarni,Orthopaedic,MK Nagar,Thirunelveli,8362442985,09:30am - 9:00pm,4.4
+452,Dr.Parag Melvanki,Orthopaedic,C/O M M Joshi Eye Hospital,Salem,8362210051,11:00am - 7:30pm,3
+453,Dr.Imtiaz Shaikh,Orthopaedic,"8/12, Indira Nagar",Namakkal,8362435151,9:30am - 6:30pm,4
+454,Dr.Subhash Mohite,Orthopaedic,FST Road,Kumbakonam,9152964214,24 hours,5
+455,Dr.Vivek Patil,Orthopaedic,Thillai Nagr,Trichy,9152560913,24 hours,4.6
+456,Jeevan Rekha Orthopaedic clinic,Orthopaedic,"GK Towers, SS Road",Kumbakonam,9152782591,09:30am - 9:00pm,4.9
+457,Dr.Divakar Rajkumar,Orthopaedic,RR Complex,Chennai,8362352571,11:00am - 9:00pm,4.2
+458,Sanjeevini Speciality Hospital,Orthopaedic,ST Road,Salem,9152677634,24 hours,5
+459,City clinic,Orthopaedic,"5/113, Ghandhi Market",Trichy,8362228396,12:00pm - 11:50pm,4.3
+460,Dr.Bhargav,Orthopaedic,Vijaya road,Chennai,9243256399,11:00am - 2:00pm,3.5
+461,Kshema  Orthopaedic & Trauma centre,Orthopaedic,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,9152575331,24 hours,4
+462,Shivakrupa hospital,Orthopaedic,"P B Road,  Opposite Hotel Hoysala",Chennai,8362353133,24 hours,4.2
+463,Manvi Hospital,Orthopaedic,"Chethan Clinic, Tikare Road",Chennai,8362228390,24 hours,4.3
+464,Shreyas Orthopaedics,Orthopaedic,"4/5, Tennur",Trichy,9448122046,12:00am - 11:59pm,3.9
+465,Kallian Purkar Nursing home,Orthopaedic,"23/7, KK Nagar",Pudukkottai,8362251889,24 hours,3.4
+466,Dr.Basanagoudar Praveen,Orthopaedic,MK Nagar,Thirunelveli,8362773893,24 hours,4
+467,Dr.Madhuchandra R,Orthopaedic,C/O M M Joshi Eye Hospital,Salem,9845505137,24 hours,3
+468,Dr.Aithala S V,Orthopaedic,"8/12, Indira Nagar",Namakkal,8362334466,24 hours,2.5
+469,Dr.Sachin Revankars,Orthopaedic,FST Road,Kumbakonam,8362250077,02:18pm - 04:20pm,4.6
+470,Diwakar Orthopaedic hospital,Orthopaedic,Thillai Nagr,Trichy,9448352557,11:00am - 8;00pm,3.7
+471,Fortis hospital,Orthopaedic,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,9986459671,10:00am - 6:00pm,4.5
+472,Ayurvaid hospital,Orthopaedic,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,9164992332,8:00am - 8:00pm,3
+473,Shri Veerabhadreshwar ortho care,Orthopaedic,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,9945471997,24 hours,3.7
+474,Dr.Mc Bellad,Orthopaedic,Kalburgi Cmplx,Erode,9448122046,24 hours,4.8
+475,Dr.Vinod Kallianpurkar,Orthopaedic,MK Nagar,Thirunelveli,,10:00am - 08:30pm,4
+476,Patil Dr.M G,Orthopaedic,C/O M M Joshi Eye Hospital,Salem,8362252415,24 hours,4
+477,Dr.Satish A Kalagi,Orthopaedic,"8/12, Indira Nagar",Namakkal,,09:30am - 06:30pm,3.5
+478,Dr.Ashok Bangarshettar,Orthopaedic,FST Road,Kumbakonam,9916338061,24 hours,5
+479,Dr.Hosangadi A A,Orthopaedic,Thillai Nagr,Trichy,9448114892,04:00am - 08:00pm,1
+480,Dr.Rajan Deshapande,Paediatrician,"8/12, Indira Nagar",Namakkal,9152671315,24 hours,3.9
+481,Dr. Ravindra B Joshi,Paediatrician,FST Road,Kumbakonam,,24 hours,3.9
+482,Dr.Srikanth Pai Sk,Paediatrician,Thillai Nagr,Trichy,8362444299,10:00am - 04:00pm,3.9
+483,Dr.Vijay Jyoti,Paediatrician,"GK Towers, SS Road",Kumbakonam,9916055240,10:00am - 01:00pm,4.8
+484,Dr.Ramesh Neglur,Paediatrician,RR Complex,Chennai,8362448519,11:00am - 03:00pm,4.3
+485,Dr.Suresh Patted,Paediatrician,ST Road,Salem,,24 hours,4.5
+486,Sri krishna Children Hospital,Paediatrician,"5/113, Ghandhi Market",Trichy,8362773646,24 hours,5
+487,Dr.Mahesh Patil,Paediatrician,Vijaya road,Chennai,8362476264,09:30am - 07:30pm,5
+488,Dr. Suresh Patil,Paediatrician,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,8362442963,24 hours,1
+489,Dr. Anegundi A.M,Paediatrician,"P B Road,  Opposite Hotel Hoysala",Chennai,9152254620,12:30pm - 07:30pm,5
+490,Positive Homeopathy,Paediatrician,"Chethan Clinic, Tikare Road",Chennai,9152784565,24 hours,3.8
+491,Regional Neurosciences centre,Paediatrician,"4/5, Tennur",Trichy,9152579453,24 hours,3.5
+492,Dr. L S Kulkarni,Paediatrician,"23/7, KK Nagar",Pudukkottai,8362373437,11:00am - 08:30pm,4.5
+493,Dr. Batra's healthcare clinics,Paediatrician,"7, TPK Complex, Chatram",Trichy,9152614778,12:00pm - 09:00pm,3.7
+494,Vivekanada General Hospital,Paediatrician,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,8362251002,24 hours,3.9
+495,Dr. sachin Kinnarkar,Paediatrician,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8364252844,10:30am- 01:30pm,4.4
+496,Manvi Hospital,Paediatrician,"15, Adayar",Chennai,8362250348,10:00am - 08:00pm,3.9
+497,Jituri Hospital,Paediatrician,"4th cross, Ramji Nagr",Chennai,8362371811,24 hours,3.7
+498,Sparsh child care Hospital,Paediatrician,"42, North, Kattur",Trichy,8362277657,24 hours,4.3
+499,Dr. Mugali Shrinath,Paediatrician,"5th cross, Anna Nagar",Pudukkottai,8362228383,24 hours,4.7
+500,Dr. P V Kanchi,Paediatrician,"5, Palpannai",Trichy,8362268365,11:30am - 09:30pm,4.3
+501,Dr. Hanamaraddi S R,Paediatrician,Kalburgi Cmplx,Erode,8362267641,12:00pm - 10:00pm,4.5
+502,Dr. Lokesh R V,Paediatrician,Ashwamedha Trade Centre,Coimbatore,8362268370,10:30am - 09:00pm,4.8
+503,Dr. Agadi,Paediatrician,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,8362374623,24 hours,2.5
+504,Dr. Devaraj V Raichur,Paediatrician,Ghandhi Nagar,Thirunelveli,8364251530,24 hours,5
+505,Dr. Mujahid Irafan b,Paediatrician,MK Nagar,Thirunelveli,8362372615,10:00am - 08:00pm,5
+506,Dr. I.S Kulkarni,Paediatrician,C/O M M Joshi Eye Hospital,Salem,9886240370,11:00am - 08:00pm,5
+507,Dr. Maya Bijju,Paediatrician,"8/12, Indira Nagar",Namakkal,8362251889,24 hours,5
+508,Chirayu Children clinic,Paediatrician,FST Road,Kumbakonam,8362364524,10:00am - 08:00pm,3
+509,Dr. Veena Wari P,Paediatrician,Thillai Nagr,Trichy,8364250664,24 hours,4.5
+510,Pooja children hospital,Paediatrician,"GK Towers, SS Road",Kumbakonam,8362286560,09:30am - 06:30pm,4
+511,Shree sai clinic,Paediatrician,RR Complex,Chennai,9741573005,09:00am - 09:00pm,3
+512,Dr.Ravindra G khasnis,Paediatrician,ST Road,Salem,9448796709,12:30pm - 09:00pm,3
+513,Dr.Prakash vari,Paediatrician,"5/113, Ghandhi Market",Trichy,8362258189,12:00am - 11:59pm,3
+514,Sai Child care,Paediatrician,Vijaya road,Chennai,9448377919,12:00pm - 10:00pm,2.5
+515,Dr.Mohan Mahendrakar,Paediatrician,MK Nagar,Thirunelveli,,01:30pm - 08:30pm,3
+516,Dr.M Badarinarayan Shetty,Paediatrician,C/O M M Joshi Eye Hospital,Salem,9845011249,09:30am - 06:30pm,3
+517,Dr.Abdul vahid Maniyar,Paediatrician,"8/12, Indira Nagar",Namakkal,,24 hours,2.5
+518,Dr.S R Ramanagoudar,Surgeon,FST Road,Kumbakonam,8362228236,24 hours,4.1
+519,Shri Balaji Institute of neuro science,Surgeon,Thillai Nagr,Trichy,8362376666,12:00am - 11:59pm,3.8
+520,Shivakrupa hospital,Surgeon,"7, TPK Complex, Chatram",Trichy,8362353133,24 hours,4.2
+521,Sanjeevini Speciality Hospital,Surgeon,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,9152677634,24 hours,5
+522,Dr.Yelmali V G,Surgeon,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,9845217087,10:00am - 09:00pm,4
+523,Ayurvaid hospital,Surgeon,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,9164992332,8:00am - 8:00pm,3
+524,Dr.Ravi Kalghatgi,Surgeon,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,8362228334,24 hours,4.5
+525,Dr.Narayan Chandra Hebsur,Surgeon,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,8362355699,11:30am - 08:30pm,5
+526,Shree Shantadurga Dental and Maxillofacial,Surgeon,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,9036125346,11:00am - 8:00pm,5
+527,Shripriya clinic,Surgeon,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,9448122969,10:30am - 09:00pm,4.8
+528,Dr.Angadi C C,Surgeon,Kalburgi Cmplx,Erode,8362372344,24 hours,4.5
+529,Dr.Bekinalkar A H,Surgeon,Ashwamedha Trade Centre,Coimbatore,8362335506,10:00am - 8:00pm,5
+530,Dr.Prabhu N M,Surgeon,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,8362237228,24 hours,5
+531,Dr.Suyakanth Kallurya,Surgeon,Ghandhi Nagar,Thirunelveli,8362277332,24 hours,5
+532,Dr.Potdar  R M,Surgeon,MK Nagar,Thirunelveli,8362372072,11:00am - 8:00pm,3
+533,Dr.Battal M M,Surgeon,C/O M M Joshi Eye Hospital,Salem,8362333953,24 hours,3.3
+534,Dr.Patel S ,Surgeon,"8/12, Indira Nagar",Namakkal,7259753375,9:30am - 6:30pm,3
+535,Dr.Cr Murthy,Surgeon,FST Road,Kumbakonam,9343401319,9:30am - 9:30pm,2
+536,Dr.E T Choudhary,Surgeon,Thillai Nagr,Trichy,,24 hours,3
+537,Dr.Gudigar Gajanan,Surgeon,"GK Towers, SS Road",Kumbakonam,8362256523,9:30am - 6:30pm,2
+538,Dr.Balakrishna c Bagalkot,Surgeon,RR Complex,Chennai,8362353366,9:30am - 6:30pm,2
+539,Bhanashankar Hospital,Surgeon,ST Road,Salem,9844050636,24 hours,3
+540,Halligeri Nursing home,Surgeon,"5/113, Ghandhi Market",Trichy,9481730601,24 hours,2
+541,Akshaya surgical and orthopaedic center,Surgeon,Vijaya road,Chennai,8362374892,9:30am - 6:30pm,2
+542,Asha Poly clinic ,Surgeon,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,8362278370,10:00am - 10:00pm,2.5
+543,Shri Basweshwar Clinic,Surgeon,"P B Road,  Opposite Hotel Hoysala",Chennai,9844523131,24 hours,2
+544,Sagar Multi Speciality Clinic,Surgeon,"Chethan Clinic, Tikare Road",Chennai,9845073458,10:30am - 2:00pm,2
+545,Sai Clinic,Surgeon,"4/5, Tennur",Trichy,9845275862,6:00am - 8:00pm,3
+546,Chetana Dental Clinic,Dentist,"23/7, KK Nagar",Pudukkottai,9152697121,11:00am - 2:00pm,3.7
+547,Nisarga Multispecility Dental clinic,Dentist,"7, TPK Complex, Chatram",Trichy,9152560901,10:30am - 10:30pm,4.6
+548,Rashmi Dental Orthodontic clinic,Dentist,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,9152442130,5:30pm - 9:00pm,4.5
+549,Dental care centre,Dentist,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,9880416964,10:30am - 8:30pm,3.8
+550,Ekadanta Dental clinic,Dentist,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,9886754632,5:00pm - 9:00pm,5
+551,ABC Dental hospital,Dentist,MK Nagar,Thirunelveli,,24 hours,3.9
+552,Dr.Anand K Patil ,Dentist,C/O M M Joshi Eye Hospital,Salem,8362446677,9:30am - 12:30pm,5
+553,Dr.Dudihalli ,Dentist,"8/12, Indira Nagar",Namakkal,9844676210,10:00am - 2:00pm,4.6
+554,Shri SAI Dental care,Dentist,FST Road,Kumbakonam,8362371016,24 hours,4.6
+555,Shreya Dental clinic,Dentist,Thillai Nagr,Trichy,8277049100,10:00am - 9:00pm,4.3
+556,Shifa oral care,Dentist,Ashwamedha Trade Centre,Coimbatore,9986811247,11:00am - 5:00pm,4.3
+557,Rebecca Dental clinic,Dentist,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,8362776225,24 hours,5
+558,Vijay Dental care,Dentist,Ghandhi Nagar,Thirunelveli,8362742578,10:00am - 9:00pm,5
+559,Archana dental clinic,Dentist,MK Nagar,Thirunelveli,8362740743,10:00am - 2:00pm,4
+560,Veeraj Dental clinic,Dentist,C/O M M Joshi Eye Hospital,Salem,9880699137,10:00am - 2:30pm,5
+561,Dr.Deshabag,Dentist,"8/12, Indira Nagar",Namakkal,8362742578,24 hours,5
+562,Sangamesh dental clinic,Dentist,FST Road,Kumbakonam,8362743938,10:30am - 8:30pm,5
+563,Dr.Mishael J Kuri,Dentist,Thillai Nagr,Trichy,9980475469,9:00am - 9:00pm,5
+564,Dr.Raghavendra J Deshabag,Dentist,"GK Towers, SS Road",Kumbakonam,9742282759,24 hours,5
+565,Sadanand dental care,Dentist,RR Complex,Chennai,9448893904,10:00am - 8:00pm,5
+566,Anegundi dental hospital,Dentist,ST Road,Salem,8362442928,11:00am - 9:00pm,5
+567,Implacare Dentistry,Dentist,"5/113, Ghandhi Market",Trichy,8362743931,9:00am - 6:00pm,5
+568,Dr.Sylvester V Borgis,Dentist,Vijaya road,Chennai,8366553565,9:30am - 6:30pm,4
+569,Dr.Anand K tavargeri,Dentist,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,8362740572,10:30am - 9:00pm,3
+570,Panchikkal multispeciality dental clinic,Dentist,"P B Road,  Opposite Hotel Hoysala",Chennai,9343188282,11:30am - 9:00pm,4
+571,Ent Dental & family health clinic,Dentist,"Chethan Clinic, Tikare Road",Chennai,8105516216,24 hours,3
+572,Dr.Deepak,Dentist,"4/5, Tennur",Trichy,9448893904,8:00am - 10:00pm,4
+573,Dr.Tippeswamy,Dentist,"23/7, KK Nagar",Pudukkottai,9845619329,4:00pm - 9:00pm,4
+574,Dr.K H Kidiyoor,Dentist,"7, TPK Complex, Chatram",Trichy,8362747253,9:30am - 6:30pm,3
+575,Healthy tooths dental care centre,Dentist,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,8722157777,24 hours,3
+576,Dentacare Multispeciality clinic,Dentist,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8362444111,24 hours,4
+577,Dr.Sangamesh,Dentist,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,8362440312,10:00am - 8:00pm,3
+578,Dr.Patil D C,Dentist,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,8362448037,24 hours,4
+579,Dr.Suhas Gokale,Dentist,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,8362448623,9:00am - 7:30pm,3
+580,Bhat dental care,Dentist,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,9152560886,10:00am - 9:00pm,4.5
+581,Dr.Kishor Bagalkot,Dentist,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,9152899721,10:30am - 8:00pm,3.5
+582,Dr.Patils smile word,Dentist,Kalburgi Cmplx,Erode,9152588201,10:00am - 9:30pm,4.6
+583,KDC Dental care,Dentist,Ashwamedha Trade Centre,Coimbatore,9152605260,24 hours,4.2
+584,Jayade dental clinic,Dentist,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,9152252060,11:00am - 6:30pm,4.9
+585,My smile orthodontic dental clinic,Dentist,Ghandhi Nagar,Thirunelveli,9152759214,10:30am - 10:00pm,4.6
+586,Dr.Nayaks Dental clinic,Dentist,MK Nagar,Thirunelveli,9152525751,10:00am - 9:00pm,4.7
+587,Shri Kamakshi dental clinic,Dentist,C/O M M Joshi Eye Hospital,Salem,9152525718,9:00am - 9:00pm,3.5
+588,Positive Homeopathy,Dentist,"8/12, Indira Nagar",Namakkal,9152784565,24 hours,3.8
+589,Ashraj dental house,Dentist,FST Road,Kumbakonam,9152473127,11:00am - 8;00pm,5
+590,Shri Balaji Institute of neuro science,Dentist,Thillai Nagr,Trichy,8362376666,24 hours,3.8
+591,Yelamali Nursing home,Dentist,"15, Adayar",Chennai,8362228212,24 hours,4.3
+592,Yavagal dental center of excellence,Dentist,"4th cross, Ramji Nagr",Chennai,8366290001,10:00am - 8:00pm,4.2
+593,Dr.Kishor Bagalkot,Dentist,"42, North, Kattur",Trichy,8362256276,24 hours,4.5
+594,Dhotrads sunny dental clinic,Dentist,"5th cross, Anna Nagar",Pudukkottai,8362236112,24 hours,4.3
+595,Urban Dental Clinic,Dentist,"5, Palpannai",Trichy,9481786650,10:00am - 2:00pm,5
+596,Smile 32,Dentist,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,9886399668,10:00am - 9:30pm,4.2
+597,Dentistree,Dentist,"P B Road,  Opposite Hotel Hoysala",Chennai,8364261245,10:00am - 8:30pm,4.2
+598,Lejoys Dental Care,Dentist,"Chethan Clinic, Tikare Road",Chennai,8362252494,10:30am - 9:00pm,4
+599,Samant Dental Clinic,Dentist,"4/5, Tennur",Trichy,9035206602,9:30am - 6:30pm,5
+600,Siddhi Dental Care,Dentist,"23/7, KK Nagar",Pudukkottai,8762611000,10:00am - 8:30pm,4.8
+601,Kinis Dental Speciality Clinic,Dentist,"7, TPK Complex, Chatram",Trichy,9019054442,11:30am - 9:00pm,4.4
+602,Dr.P V Jayade,Dentist,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,,10:30am - 6:30pm,4.4
+603,Face lift Clinic,Dentist,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8362361218,10:00am - 8:00pm,4.2
+604,Dr.Alnavar S R,Dentist,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,,24 hours,4
+605,Oshree Shantadurga Dental and Maxillofacial,Dentist,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,9036125346,11:00am - 8:00pm,5
+606,Stuti Dental Care,Dentist,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,7795555788,10:30am - 2:00pm,4.7
+607,Teeth & Gums complete Dental care,Dentist,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,8762358530,11:00am - 7:00pm,4.7
+608,Dr.Balaram D Naik,Dentist,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,8362228054,10:30am - 9:30pm,4
+609,Hema Dental care and Maxilo facial centre,Dentist,Kalburgi Cmplx,Erode,8362286333,11:00am - 9:00pm,3.7
+610,Sirur Dental Clinic,Dentist,Ashwamedha Trade Centre,Coimbatore,8362370141,10:30am - 2:00pm,3.3
+611,Hubli Dental Clinic,Dentist,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,9845771755,11:00am - 8:30pm,2.3
+612,Dr.Prakash Nidawani,Dentist,Ghandhi Nagar,Thirunelveli,9845719123,10:30am - 9:00pm,4
+613,Dr.Veeresh K Magalad ,Dentist,MK Nagar,Thirunelveli,9844770182,10:00am - 9:00pm,4
+614,Smile Line Dental Clinic,Dentist,C/O M M Joshi Eye Hospital,Salem,8362355510,9:30am - 6:30pm,5
+615,Dr.Chetan Jayade,Dentist,"8/12, Indira Nagar",Namakkal,8362252604,11:00am - 8:00pm,5
+616,The Dental Implant Studio,Dentist,FST Road,Kumbakonam,8362263375,11:00am - 7:00pm,5
+617,Royal Dental Clinic,Dentist,Thillai Nagr,Trichy,9740195137,10:00am - 8:00pm,4
+618,Oris Dental,Dentist,"GK Towers, SS Road",Kumbakonam,9886212329,6:00am - 9:00pm,3
+619,Dr.Rajendra Bhatt,Dentist,RR Complex,Chennai,8362216132,9:30am - 6:30pm,3
+620,Joshi's Dental and Maxillofacial clinic,Dentist,ST Road,Salem,8362356222,10:00am - 1:30pm,5
+621,Om Shree Dental Clinic,Dentist,"5/113, Ghandhi Market",Trichy,8362286677,10:30am - 2:00pm,5
+622,Dr.K S Apte,Dentist,Vijaya road,Chennai,8362253315,24 hours,5
+623,Ganga Dental Clinic,Dentist,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,9686466456,11:00am - 9:00pm,4.5
+624,Khushy Dental Corporation,Dentist,"P B Road,  Opposite Hotel Hoysala",Chennai,9035015861,11:00am - 7:00pm,4.5
+625,Nakshatra Multi Speciality Dental Clinic,Dentist,"Chethan Clinic, Tikare Road",Chennai,9886028612,11:30am - 9:00pm,4.5
+626,Dr.Santosh G S,Dentist,"4/5, Tennur",Trichy,7795852520,10:30am - 8:30pm,3
+627,Smile Plus Dental Clinic,Dentist,"23/7, KK Nagar",Pudukkottai,8362434177,8:00am - 8:30pm,3
+628,Nadiger Dental Clinic,Dentist,"7, TPK Complex, Chatram",Trichy,8362269442,10:00am - 7:30pm,2
+629,Dr.Shivaleela V Dhotrad,Dentist,"No.1, Revankar Complex, Deshpandenagar, Hubli - 580029, Near Court Circle",Pudukkottai,9343109693,9:30am - 6:30pm,0.5
+630,Dr.Seema Alnavar,Dentist,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,9886023969,10:00am - 8:30pm,4
+631,Zari Dental Clinic,Dentist,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,7406662425,11:00am - 9:00pm,5
+632,Anjana Dental clinic,Dentist,"No. 2, Ashok Nagar Road, Bailappanavar Nagar, Hubli - 580029, Near Sawai Gandarva Hall ",Thanjavur,9036967549,9:30am - 6:30pm,4.5
+633,Dr.Prasad Kini,Dentist,"No. 1, Revankar Complex, C/O Vasan Eye Care Hospital, Deshpandenagar, Hubli - 580029, Near Court Circle ",Chennai,8095794786,11:30am - 9:30pm,4.8
+634,Tegginmanis Dental Clinic,Dentist,"Karwar Road, Arvind Nagar, Hubli - 580024, Opposite to ESI Hospital ",Trichy,9449082305,11:00am - 12:00am,3
+635,Akshay Dental Care,Dentist,"Padma Nayanalaya, Gokul Road, Hosur, Hubli - 580021, Opposite Hanuman Mandir",Erode,9743239862,10:00am - 9:00pm,4
+636,Dr.Chandrashekhar Yavagal,Dentist,Kalburgi Cmplx,Erode,8362372495,10:00am - 7:00pm,3
+637,Dr.Ravindra P Jayade,Dentist,Ashwamedha Trade Centre,Coimbatore,9964613010,10:30am - 6:30pm,4
+638,Dr.Taranjit Kaur,Dentist,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,9342811003,24 hours,3
+639,Dr.Jayalaxmi Bauolli,Dentist,Ghandhi Nagar,Thirunelveli,8362365906,24 hours,4
+640,Confi Dental,Dentist,MK Nagar,Thirunelveli,9739704231,11:00am - 7:00pm,3
+641,Kavlekar Dental Clinic,Dentist,C/O M M Joshi Eye Hospital,Salem,9844835587,10:00am - 2:00pm,4
+642,Sri Sai Dental Care,Dentist,"8/12, Indira Nagar",Namakkal,8088088245,9:00am - 9:00pm,3
+643,Nandetha Dental Clinic,Dentist,FST Road,Kumbakonam,9980067429,5:00pm - 9:00pm,4
+644,Dr.Aparna K,Dentist,Thillai Nagr,Trichy,8362371016,24 hours,4.5
+645,Dr.Dhirendra G Sirur,Dentist,"GK Towers, SS Road",Kumbakonam,8362370141,24 hours,5
+646,Shreeya Multispeciality Hospital,ENT,RR Complex,Chennai,8362448515,24 hours,3.8
+647,Dr.H Basavaraj,ENT,ST Road,Salem,8380225612,9:30am - 8:30pm,4
+648,Dr.S R Prabhu,ENT,"5/113, Ghandhi Market",Trichy,,24 hours,4
+649,Hubli Super Speciality Hospital,ENT,Vijaya road,Chennai,9152769135,10:00am - 10:00pm,4.8
+650,Positive Homeopathy,ENT,"Subhas road,near bobby photo studio,near srinivas talkies",Karur,9152784565,24 hours,3.8
+651,Advanced ENT Clinic,ENT,"P B Road,  Opposite Hotel Hoysala",Chennai,9152662506,1:00pm - 8:30pm,4.6
+652,Dr.Nagabhushan S Hiremath,ENT,"15, Adayar",Chennai,8362228366,2:00pm - 8:00pm,4.4
+653,Samhith ENT Care Centre,ENT,"4th cross, Ramji Nagr",Chennai,9152871791,11:00am - 8:00pm,3
+654,Jaypriya Hospital,ENT,"42, North, Kattur",Trichy,9152526337,24 hours,3.5
+655,Dr.Neminath R Patil,ENT,"5th cross, Anna Nagar",Pudukkottai,8362366448,12:00pm - 2:00pm,4.3
+656,ENT Consultant,ENT,"5, Palpannai",Trichy,8365511144,9:30am - 6:30pm,3.3
+657,Sdm Polyclinic,ENT,"C/O M M Joshi Eye Hospital, Gokul Road, Hosur Hubli, Hubli - 580021, Opposite To Hanuman Mandir ",Salem,8362277201,8:30am - 5:00pm,4.7
+658,Dr.Deshpande M P,ENT,"Deshpandenagar, Hubli - 580029, Opposite To BJP Office ",Salem,,24 hours,4.5
+659,Dr.Devika Vanahalli,ENT,MK Nagar,Thirunelveli,8362375077,11:00am - 9:00pm,2.8
+660,M F Rayangoudar,ENT,C/O M M Joshi Eye Hospital,Salem,8362257357,9:30am - 6:30pm,2.2
+661,Dr.B B Jayashankar,ENT,"8/12, Indira Nagar",Namakkal,8362261420,9:30am - 6:30pm,3.5
+662,Dr.Umesh,ENT,FST Road,Kumbakonam,,9:30am - 6:30pm,3
+663,Vidya Finance Company,ENT,Thillai Nagr,Trichy,8880007850,10:00am - 5:30pm,5
+664,Mallikarjun Desai,ENT,Ashwamedha Trade Centre,Coimbatore,8362372413,11:00am - 9:00pm,4
+665,Dr.Veeresh K Magalad ,ENT,"M M Joshi Eye Hospital, Gokul Road",Coimbatore,9844770182,10:00am - 9:00pm,4
+666,Dr.Ravindra Gadag,ENT,Ghandhi Nagar,Thirunelveli,8362362019,1:00pm - 8:30pm,2
+667,Dr.M M Battal,ENT,MK Nagar,Thirunelveli,8362333953,5:00pm - 7:00pm,3
+668,Dr.N R Patil,ENT,C/O M M Joshi Eye Hospital,Salem,8362251694,24 hours,5
+669,Bhanashankari Hospital,ENT,"8/12, Indira Nagar",Namakkal,8362228334,24 hours,4

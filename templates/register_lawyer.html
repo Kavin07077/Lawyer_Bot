@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lawyer Registration - LawyerBot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/dark-theme.css">
+</head>
+<body>
+<nav class="dark-navbar">
+    <div class="brand"><i class="fas fa-balance-scale"></i> LawyerBot</div>
+    <ul class="nav-links">
+        <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="/lawyers"><i class="fas fa-users"></i> Browse Lawyers</a></li>
+        <li><a href="/login_user"><i class="fas fa-user"></i> User Login</a></li>
+        <li><a href="/login_lawyer"><i class="fas fa-gavel"></i> Lawyer Login</a></li>
+        <li><a href="/register_lawyer" class="active"><i class="fas fa-user-plus"></i> Register</a></li>
+    </ul>
+</nav>
+
+<section style="min-height:calc(100vh - 140px);display:flex;align-items:center;justify-content:center;padding:40px 20px;">
+    <div class="dark-card" style="width:100%;max-width:700px;padding:40px;">
+        <div style="text-align:center;margin-bottom:30px;">
+            <div style="width:70px;height:70px;border-radius:50%;background:linear-gradient(135deg,#10b981,#059669);display:flex;align-items:center;justify-content:center;margin:0 auto 15px;font-size:28px;color:#fff;">
+                <i class="fas fa-gavel"></i>
+            </div>
+            <h2 style="color:#fff;font-size:24px;margin-bottom:5px;">Lawyer Registration</h2>
+            <p style="color:#888;font-size:14px;">Create your professional profile</p>
+        </div>
+
+        {% if msg == 'success' %}
+        <div style="background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.3);color:#10b981;padding:12px;border-radius:8px;margin-bottom:20px;text-align:center;font-size:14px;">
+            <i class="fas fa-check-circle"></i> Registration successful! <a href="/login_lawyer" style="color:#10b981;text-decoration:underline;">Login here</a>
+        </div>
+        {% elif msg == 'fail' %}
+        <div style="background:rgba(233,69,96,0.15);border:1px solid rgba(233,69,96,0.3);color:#e94560;padding:12px;border-radius:8px;margin-bottom:20px;text-align:center;font-size:14px;">
+            <i class="fas fa-exclamation-circle"></i> Username already exists!
+        </div>
+        {% endif %}
+
+        <form method="post" action="/register_lawyer" class="dark-form">
+            <h4 style="color:#fff;margin-bottom:15px;font-size:16px;"><i class="fas fa-info-circle"></i> Personal Information</h4>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:15px;">
+                <div class="form-group">
+                    <label><i class="fas fa-user"></i> Full Name</label>
+                    <input type="text" name="name" placeholder="Full name" required>
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-phone"></i> Phone</label>
+                    <input type="text" name="phone" placeholder="Phone number" required maxlength="10" pattern="[0-9]{10}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label><i class="fas fa-envelope"></i> Email</label>
+                <input type="email" name="email" placeholder="Email address" required>
+            </div>
+
+            <h4 style="color:#fff;margin:25px 0 15px;font-size:16px;"><i class="fas fa-briefcase"></i> Professional Details</h4>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:15px;">
+                <div class="form-group">
+                    <label><i class="fas fa-graduation-cap"></i> Specialization</label>
+                    <input type="text" name="specialization" placeholder="e.g., Criminal Law" required>
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-calendar-alt"></i> Experience (Years)</label>
+                    <input type="number" name="experience" placeholder="Years" required min="0">
+                </div>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:15px;">
+                <div class="form-group">
+                    <label><i class="fas fa-city"></i> City</label>
+                    <input type="text" name="city" placeholder="City" required>
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-map-marker-alt"></i> District</label>
+                    <input type="text" name="district" placeholder="District" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label><i class="fas fa-home"></i> Address</label>
+                <textarea name="address" placeholder="Complete address" rows="2" required></textarea>
+            </div>
+            <div class="form-group">
+                <label><i class="fas fa-file-alt"></i> Bio</label>
+                <textarea name="bio" placeholder="Brief description about your practice" rows="3"></textarea>
+            </div>
+
+            <h4 style="color:#fff;margin:25px 0 15px;font-size:16px;"><i class="fas fa-lock"></i> Account Credentials</h4>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:15px;">
+                <div class="form-group">
+                    <label><i class="fas fa-user-circle"></i> Username</label>
+                    <input type="text" name="username" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-key"></i> Password</label>
+                    <input type="password" name="password" placeholder="Password" required minlength="6">
+                </div>
+            </div>
+
+            <button type="submit" style="width:100%;padding:14px;background:linear-gradient(135deg,#10b981,#059669);border:none;border-radius:8px;color:#fff;font-size:15px;font-weight:600;cursor:pointer;margin-top:10px;">
+                <i class="fas fa-user-plus"></i> Register as Lawyer
+            </button>
+        </form>
+
+        <div style="text-align:center;margin-top:20px;color:#888;font-size:14px;">
+            Already have an account? <a href="/login_lawyer" style="color:#10b981;text-decoration:none;font-weight:600;">Login here</a>
+        </div>
+    </div>
+</section>
+
+<footer style="background:#0f172a;color:#888;text-align:center;padding:20px;font-size:13px;border-top:1px solid #1e293b;">
+    <p>&copy; 2024 LawyerBot. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

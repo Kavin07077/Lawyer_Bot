@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>LawyerBot - AI Legal Assistant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/dark-theme.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<nav class="dark-navbar">
+    <div class="brand"><i class="fas fa-balance-scale"></i> LawyerBot</div>
+    <ul class="nav-links">
+        <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="/bot" class="active"><i class="fas fa-robot"></i> Chat</a></li>
+        <li><a href="/lawyers"><i class="fas fa-search"></i> Find Lawyers</a></li>
+        <li><a href="/requests"><i class="fas fa-file-alt"></i> My Requests</a></li>
+        <li><a href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+    </ul>
+</nav>
+
+<div class="chat-container">
+    <div class="chat-main">
+        <div class="chat-header">
+            <div class="status-dot"></div>
+            <div>
+                <h3>LawyerBot AI</h3>
+                <span>Powered by Groq &bull; User: {{value[1]}}</span>
+            </div>
+        </div>
+
+        <ul class="chat-messages messages"></ul>
+
+        <div class="chat-input-area">
+            <form name="form1" method="post" action="/bot" style="display:flex;align-items:center;gap:10px;width:100%">
+                <select name="language" style="background:#1a1a2e;color:#ccc;border:1px solid #333;border-radius:8px;padding:8px;font-size:13px;">
+                    <option value="">EN</option>
+                    <option value="ta">Tamil</option>
+                    <option value="hi">Hindi</option>
+                    <option value="ml">Malayalam</option>
+                    <option value="kn">Kannada</option>
+                    <option value="te">Telugu</option>
+                    <option value="mr">Marathi</option>
+                    <option value="ur">Urdu</option>
+                    <option value="bn">Bengali</option>
+                    <option value="gu">Gujarati</option>
+                    <option value="fr">French</option>
+                </select>
+                <button type="button" class="btn-mic" id="micBtn" onclick="startConverting()"
+                    style="background:none;border:none;color:#00d2ff;font-size:18px;cursor:pointer;">
+                    <i class="fas fa-microphone"></i>
+                </button>
+                <input name="msg_input" id="res" type="text" placeholder="Ask a legal question..." autocomplete="off"
+                    style="flex:1;padding:12px 16px;border-radius:12px;border:1px solid #333;background:#1a1a2e;color:#eee;font-size:14px;">
+                <input type="hidden" name="emj">
+                <input type="hidden" name="msg_input1">
+                <button class="btn-send btn-accent" type="button" title="Send"
+                    style="padding:10px 18px;border-radius:12px;border:none;cursor:pointer;">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="chat-sidebar">
+        <div class="sidebar-header"><i class="fas fa-lightbulb"></i> Quick Topics</div>
+        <div class="sidebar-content">
+            {% for rs in data %}
+            <div class="help-item" onclick="document.form1.msg_input.value=this.innerText.trim();document.querySelector('.btn-send').click();">
+                {{rs[1]|truncate(80, True)}}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="dark-footer">&copy; 2025 LawyerBot &mdash; AI-Powered Legal Assistant</div>
+
+<script>
+function startConverting(){
+    var b=document.getElementById('micBtn');
+    if('webkitSpeechRecognition' in window){
+        var s=new webkitSpeechRecognition();
+        s.continuous=false; s.interimResults=true; s.lang='en-US';
+        s.start();
+        b.innerHTML='<i class="fas fa-circle" style="color:#e94560;animation:pulse 1s infinite"></i>';
+        s.onresult=function(e){
+            var f='';
+            for(var i=e.resultIndex;i<e.results.length;i++){
+                if(e.results[i].isFinal) f+=e.results[i][0].transcript;
+            }
+            if(f) document.form1.msg_input.value=f;
+        };
+        s.onend=function(){b.innerHTML='<i class="fas fa-microphone"></i>';};
+    } else {alert('Speech recognition not supported.');}
+}
+</script>
+<script>
+function getCurrentTimestamp(){return new Date();}
+
+function renderMessageToScreen(a){
+    var d=(a.time||getCurrentTimestamp()).toLocaleString('en',{month:'short',day:'numeric',hour:'numeric',minute:'numeric'});
+    var c=$('.messages');
+    var m=$('<li class="message '+a.message_side+'"><div class="avatar"></div><div class="text_wrapper"><div class="text">'+a.text+'</div><div class="timestamp">'+d+'</div></div></li>');
+    c.append(m);
+    setTimeout(function(){m.addClass('appeared');},0);
+    c.animate({scrollTop:c.prop('scrollHeight')},300);
+}
+
+function showUserMessage(m,d){renderMessageToScreen({text:m,time:d,message_side:'right'});}
+function showBotMessage(m,d){renderMessageToScreen({text:m,time:d,message_side:'left'});}
+
+function showTyping(){
+    var c=$('.messages');
+    var t=$('<li class="message left typing-msg appeared"><div class="avatar"></div><div class="typing-indicator"><span></span><span></span><span></span></div></li>');
+    c.append(t);
+    c.animate({scrollTop:c.prop('scrollHeight')},300);
+}
+function removeTyping(){$('.typing-msg').remove();}
+
+$(function(){
+    $('.btn-send').click(function(){
+        var v=$('input[name=msg_input]').val().trim();
+        if(!v) return;
+        showUserMessage(v);
+        var formData=$('form[name=form1]').serialize();
+        document.form1.msg_input.value='';
+        showTyping();
+        $.ajax({
+            url:'/bot', data:formData, type:'POST',
+            success:function(r){removeTyping();showBotMessage(r);},
+            error:function(){removeTyping();showBotMessage('Sorry, something went wrong. Please try again.');}
+        });
+    });
+    $('input[name=msg_input]').keypress(function(e){
+        if(e.which===13){e.preventDefault();$('.btn-send').click();}
+    });
+});
+
+$(window).on('load',function(){
+    showBotMessage('Hi! Welcome to <b>LawyerBot AI</b>! \ud83d\udc4b<br>Ask me any legal question about IPC sections, offenses, or punishments.<br><small style="color:#888">Powered by Groq AI</small>');
+});
+</script>
+</body>
+</html>

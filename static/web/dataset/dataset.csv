@@ -1,0 +1,7 @@
+input,output
+hi hello hai,Welcome to Our Health Care Service
+"please book an appointment with doctor, hospitals, healthcare, how can I book an appointment?",In whcih city would you like to book?
+x1,What specialization are you looking for?
+x2,Display list of Doctors
+x3,"Appointment  <a href=appoint target=""_blank"">Click Here</a>"
+"thank you,Thanks",My pleasure to help you

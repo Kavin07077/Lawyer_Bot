@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Inter',sans-serif; background:#0f0f0f; color:#fff; padding:30px; }
+        .pipeline { display:flex; flex-direction:column; gap:15px; max-width:500px; margin:0 auto; }
+        .step { display:flex; align-items:center; gap:15px; padding:15px 20px; background:#16213e; border-radius:10px; border-left:4px solid #333; opacity:0; transform:translateX(-20px); }
+        .step.active { opacity:1; transform:translateX(0); border-left-color:#e94560; }
+        .step.done { border-left-color:#10b981; }
+        .step-num { width:32px; height:32px; border-radius:50%; background:#e94560; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:14px; flex-shrink:0; }
+        .step.done .step-num { background:#10b981; }
+        .step-text { font-size:14px; font-weight:500; }
+        .step-status { margin-left:auto; font-size:12px; color:#888; }
+        .step.done .step-status { color:#10b981; }
+    </style>
+</head>
+<body>
+    <div class="pipeline" id="pipeline">
+        <div class="step" id="s1"><div class="step-num">1</div><div class="step-text">Data Preprocessing</div><div class="step-status">waiting</div></div>
+        <div class="step" id="s2"><div class="step-num">2</div><div class="step-text">Feature Extraction (NLP)</div><div class="step-status">waiting</div></div>
+        <div class="step" id="s3"><div class="step-num">3</div><div class="step-text">Classification & Indexing</div><div class="step-status">waiting</div></div>
+        <div class="step" id="s4"><div class="step-num">4</div><div class="step-text">Model Build Complete</div><div class="step-status">waiting</div></div>
+    </div>
+    <script>
+        var steps = ['s1','s2','s3','s4'];
+        var i = 0;
+        function runStep(){
+            if(i >= steps.length) return;
+            var el = document.getElementById(steps[i]);
+            el.style.transition = 'all 0.5s ease';
+            el.classList.add('active');
+            el.querySelector('.step-status').textContent = 'processing...';
+            setTimeout(function(){
+                el.classList.add('done');
+                el.querySelector('.step-status').textContent = 'done ✓';
+                i++;
+                setTimeout(runStep, 400);
+            }, 1200);
+        }
+        setTimeout(runStep, 500);
+    </script>
+</body>
+</html>

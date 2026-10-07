@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Admin Panel - LawyerBot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/dark-theme.css">
+</head>
+<body>
+<nav class="dark-navbar">
+    <div class="brand"><i class="fas fa-balance-scale"></i> LawyerBot</div>
+    <ul class="nav-links">
+        <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="/admin" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+        <li><a href="/admin_lawyers?status=pending"><i class="fas fa-clipboard-list"></i> Lawyer Requests</a></li>
+        <li><a href="/admin_lawyers"><i class="fas fa-users"></i> Lawyer List</a></li>
+        <li><a href="/view_data"><i class="fas fa-database"></i> View Data</a></li>
+        <li><a href="/add_query"><i class="fas fa-plus-circle"></i> Add Query</a></li>
+        <li><a href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+    </ul>
+</nav>
+
+<section style="padding:40px 5%;max-width:1000px;margin:0 auto;">
+    <div style="margin-bottom:30px;">
+        <h2 style="color:#fff;font-size:28px;"><i class="fas fa-tachometer-alt" style="color:#a855f7;"></i> Admin Dashboard</h2>
+        <p style="color:#888;">Upload and manage training data for the chatbot</p>
+    </div>
+
+    <div class="dark-card" style="padding:40px;">
+        <h3 style="color:#fff;margin-bottom:20px;"><i class="fas fa-upload" style="color:#00d2ff;"></i> Upload Training Data (CSV)</h3>
+
+        {% if msg %}
+        <div style="background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.3);color:#10b981;padding:12px;border-radius:8px;margin-bottom:20px;text-align:center;font-size:14px;">
+            <i class="fas fa-check-circle"></i> {{msg}}
+        </div>
+        {% endif %}
+
+        <form method="post" enctype="multipart/form-data" action="/admin" class="dark-form">
+            <div class="form-group">
+                <label><i class="fas fa-file-csv"></i> Select CSV File</label>
+                <input type="file" name="file" accept=".csv" required
+                    style="background:#1a1a2e;border:2px dashed #333;padding:30px;border-radius:12px;width:100%;color:#ccc;cursor:pointer;">
+            </div>
+            <p style="color:#666;font-size:13px;margin-bottom:15px;">
+                <i class="fas fa-info-circle"></i> CSV should contain columns: Section, Description, Offense, Punishment
+            </p>
+            <button type="submit" class="btn-accent" style="padding:14px 32px;border-radius:10px;border:none;font-size:16px;font-weight:600;cursor:pointer;">
+                <i class="fas fa-cloud-upload-alt"></i> Upload Data
+            </button>
+        </form>
+    </div>
+</section>
+
+<div class="dark-footer">&copy; 2025 LawyerBot &mdash; Admin Panel</div>
+</body>
+</html>
